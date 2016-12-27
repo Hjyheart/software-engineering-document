@@ -1,4 +1,4 @@
-PWD /Users/hongjiayong/Desktop/软工
+PWD /Users/hongjiayong/Desktop/software-engineering-document
 INPUT /usr/local/texlive/2016/texmf.cnf
 INPUT /usr/local/texlive/2016/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2016/texmf-var/web2c/xetex/xelatex.fmt
@@ -127,6 +127,8 @@ INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/tools/enumerate.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/tools/enumerate.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/xltxtra/xltxtra.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/xltxtra/xltxtra.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty

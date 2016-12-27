@@ -14,6 +14,7 @@
 \usepackage{graphicx}
 \usepackage{amssymb}
 \usepackage{enumerate}
+\usepackage{booktabs}
 
 % Will Robertson's fontspec.sty can be used to simplify font choices.
 % To experiment, open /Applications/Font Book to examine the fonts provided on Mac OS X,
@@ -74,17 +75,97 @@
 
 \paragraph{线上平台的可行性}
 在经过背景分析和技术论证之后，我们认为线上平台的可行性很强，具体为以下几点：
+
 \begin{enumerate}[1)]
 \item 互联网已经普及
 \item 师生几乎人人都有手机
-\item 同济大学“同心云”轻应用可以成为我们很好的发展平台
+\item 同济大学“同心云”轻应用可以成为一个很好的展示平台
 \end{enumerate}
 
-\subsection{参考资料}
+\subsection{假设和约束}
+\paragraph{基本假设}本项目需要以一些基本的假定作为项目开展的基础。我们以一些普遍的认识和经验作出以下假设：
 
-\subsection{假定和约束}
+\begin{enumerate}[1)]
+\item 师生都有手机并可以访问互联网
+\item 可以得到学校的支持将平台的展示页面搭载于同济大学“同心云”上
+\item 学校可以授权我们得到相关社团和成员的信息
+\end{enumerate}
+
+\paragraph{基本约束}
+本项目需要以一些基本的约束作为项目开展的基础。我们经过讨论作出以下约束：
+
+\begin{enumerate}[1)]
+\item 为减轻服务器访问压力，平台的用户仅限于同济大学的师生，即拥有同济大学学号和工号的人群
+\item 团学联老师拥有管理员权限
+\item 将尊重所有用户的个人隐私，对用户的个人信息保密
+\item 项目开发经费限于大学生国家创新项目经费所给的10000元
+\item 项目初期将部署于阿里云服务器上作初步测试
+\item 开发时限：2015年-2017年
+\item 咨询推送功能将因为课设时间紧迫无法上线
+\end{enumerate}
 
 \subsection{用户的特点}
+“鲜活”是一个为同济大学师生服务的社团管理和活动信息共享平台，用户主题为同济大学的师生，我们将所有用户罗列如下：
+
+\paragraph{老师}
+\subparagraph{概述}
+老师是“鲜活”中具有上帝权限的管理员，老师可作为基本用户像学生一样去参加社团甚至可以创建社团，也可以接收到社团的消息推送。但是最关键的是，老师可以审核社团的申请以及社团对场地的申请，只有在老师同意的情况下，社团才可以进行之后的操作。
+\subparagraph{具体可执行操作}
+老师具体可执行的操作如下：
+\newline
+\newline
+\begin{tabular}{ccc}
+\toprule
+操作& 描述\\
+\midrule
+\textbf{创建社团}& 老师也可以创建属于自己的社团\\
+\textbf{加入某个社团}& 老师可以参加某个社团\\
+\textbf{参加某个活动}&老师可以参加某个社团的某个活动\\
+\textbf{同意社团的创建申请}&老师将审阅所有社团的申请并决定是不是让这个社团成立并入驻“鲜活”\\
+\textbf{同意社团的场地申请}&老师将审阅社团的场地申请请求并根据场地借用记录决定是否出借场地\\
+\bottomrule
+\end{tabular}
+
+\paragraph{社团负责人}
+\subparagraph{概述}
+社团负责人是“鲜活”中的核心角色，社团负责人在平台中和普通用户一样，只是因为他们申请了社团所以成为了社团负责人这样一个特殊的角色。他们作为社团的核心人物会在平台上管理他们的社团，发布他们的活动和通知，并向上级老师申请活动的场地。
+\subparagraph{具体可执行操作}
+社团负责人可执行的操作如下：
+\newline
+\newline
+\begin{tabular}{ccc}
+\toprule
+操作& 描述\\
+\midrule
+\textbf{创建社团}& 社团负责人可以向老师发出申请创建属于自己的社团\\
+\textbf{加入某个社团}& 社团负责人可以参加某个社团\\
+\textbf{参加某个活动}&社团负责人可以参加某个社团的某个活动\\
+\textbf{查看社员}&社团负责人可以在“鲜活”中看到谁参加了自己的社团并得到他们的一些信息\\
+\textbf{发布活动}&社团负责人可以在“鲜活”中发布自己社团的活动并通过平台向所有社员推送活动信息\\
+\textbf{群发短信}& 社团负责人可以根据自己的需求向自己的社员群发短信\\
+\textbf{评论}& 社团负责人可以评论不是自己的社团但是他可以评论任何活动\\
+\bottomrule
+\end{tabular}
+
+\paragraph{普通学生}
+\subparagraph{概述}
+普通学生是“鲜活”中最基本的也是最多的用户，但即便是这样，一旦等他准备好发起了创建社团的申请并通过审核，就会成为一名社团负责人。普通学生可以加入任何社团中并参加任何社团开始的社团活动，在进入社团后可以下载社团中的资源文件。他们会接收到社团发送的通知。
+\subparagraph{具体可执行操作}
+普通学生可执行的操作如下：
+\newline
+\newline
+\begin{tabular}{ccc}
+\toprule
+操作& 描述\\
+\midrule
+\textbf{创建社团}& 普通学生也可以向老师发起申请创建属于自己的社团\\
+\textbf{加入某个社团}& 普通学生可以参加某个社团\\
+\textbf{参加某个活动}& 普通学生可以参加某个社团的某个活动\\
+\textbf{评论}& 普通学生可以评论任何社团或者任何活动\\
+\bottomrule
+\end{tabular}
+
+
 
 \section{功能需求}
 \subsection{系统范围}

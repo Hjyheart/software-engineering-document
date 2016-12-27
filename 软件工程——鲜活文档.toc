@@ -1,28 +1,41 @@
 \contentsline {section}{\numberline {1}引言}{3}
 \contentsline {subsection}{\numberline {1.1}背景}{3}
-\contentsline {subsection}{\numberline {1.2}参考资料}{3}
-\contentsline {subsection}{\numberline {1.3}假定和约束}{3}
-\contentsline {subsection}{\numberline {1.4}用户的特点}{3}
-\contentsline {section}{\numberline {2}功能需求}{3}
-\contentsline {subsection}{\numberline {2.1}系统范围}{3}
-\contentsline {subsection}{\numberline {2.2}系统体系结构}{3}
-\contentsline {subsection}{\numberline {2.3}系统总体流程}{3}
-\contentsline {subsection}{\numberline {2.4}需求分析}{3}
-\contentsline {subsection}{\numberline {2.5}功能建模}{3}
-\contentsline {subsection}{\numberline {2.6}数据建模}{3}
-\contentsline {subsection}{\numberline {2.7}行为建模}{4}
-\contentsline {section}{\numberline {3}UI 需求}{4}
-\contentsline {section}{\numberline {4}非功能需求}{4}
-\contentsline {subsection}{\numberline {4.1}性能需求}{4}
-\contentsline {subsubsection}{\numberline {4.1.1}精度}{4}
-\contentsline {subsubsection}{\numberline {4.1.2}时间特性要求}{4}
-\contentsline {subsubsection}{\numberline {4.1.3}输入输出要求}{4}
-\contentsline {subsection}{\numberline {4.2}数据管理能力要求}{4}
-\contentsline {subsection}{\numberline {4.3}安全及保密性要求}{4}
-\contentsline {subsection}{\numberline {4.4}灵活性要求}{4}
-\contentsline {subsection}{\numberline {4.5}其他专门要求}{4}
-\contentsline {section}{\numberline {5}运行环境规定}{5}
-\contentsline {subsection}{\numberline {5.1}设备}{5}
-\contentsline {subsection}{\numberline {5.2}支持软件}{5}
-\contentsline {section}{\numberline {6}需求跟踪}{5}
-\contentsline {section}{\numberline {7}附录}{5}
+\contentsline {paragraph}{同济大学社团发展现状}{3}
+\contentsline {paragraph}{线上平台的必要性}{3}
+\contentsline {paragraph}{线上平台的可行性}{3}
+\contentsline {subsection}{\numberline {1.2}假设和约束}{4}
+\contentsline {paragraph}{基本假设}{4}
+\contentsline {paragraph}{基本约束}{4}
+\contentsline {subsection}{\numberline {1.3}用户的特点}{4}
+\contentsline {paragraph}{老师}{4}
+\contentsline {subparagraph}{概述}{4}
+\contentsline {subparagraph}{具体可执行操作}{5}
+\contentsline {paragraph}{社团负责人}{5}
+\contentsline {subparagraph}{概述}{5}
+\contentsline {subparagraph}{具体可执行操作}{5}
+\contentsline {paragraph}{普通学生}{5}
+\contentsline {subparagraph}{概述}{5}
+\contentsline {subparagraph}{具体可执行操作}{6}
+\contentsline {section}{\numberline {2}功能需求}{6}
+\contentsline {subsection}{\numberline {2.1}系统范围}{6}
+\contentsline {subsection}{\numberline {2.2}系统体系结构}{6}
+\contentsline {subsection}{\numberline {2.3}系统总体流程}{6}
+\contentsline {subsection}{\numberline {2.4}需求分析}{6}
+\contentsline {subsection}{\numberline {2.5}功能建模}{6}
+\contentsline {subsection}{\numberline {2.6}数据建模}{6}
+\contentsline {subsection}{\numberline {2.7}行为建模}{6}
+\contentsline {section}{\numberline {3}UI 需求}{7}
+\contentsline {section}{\numberline {4}非功能需求}{7}
+\contentsline {subsection}{\numberline {4.1}性能需求}{7}
+\contentsline {subsubsection}{\numberline {4.1.1}精度}{7}
+\contentsline {subsubsection}{\numberline {4.1.2}时间特性要求}{7}
+\contentsline {subsubsection}{\numberline {4.1.3}输入输出要求}{7}
+\contentsline {subsection}{\numberline {4.2}数据管理能力要求}{7}
+\contentsline {subsection}{\numberline {4.3}安全及保密性要求}{7}
+\contentsline {subsection}{\numberline {4.4}灵活性要求}{7}
+\contentsline {subsection}{\numberline {4.5}其他专门要求}{7}
+\contentsline {section}{\numberline {5}运行环境规定}{7}
+\contentsline {subsection}{\numberline {5.1}设备}{7}
+\contentsline {subsection}{\numberline {5.2}支持软件}{7}
+\contentsline {section}{\numberline {6}需求跟踪}{8}
+\contentsline {section}{\numberline {7}附录}{8}
