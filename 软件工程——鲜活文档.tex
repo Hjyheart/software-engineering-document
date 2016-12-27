@@ -256,8 +256,122 @@ web端将是本系统的重点，在web端我们将开放所有版块的功能�
 \includegraphics[width = 1.0\textwidth]{xianhuo-class.png}
 
 \paragraph{Student}
+Student为本系统中普通用户、社团负责人和老师的实体，Teacher继承自Student，具体属性和方法如下图:
+\newline
+\includegraphics[width = 0.5\textwidth]{student-class.png}
+\newline
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\multicolumn{6}{|c|}{Student}\\
+\hline
+类别& 名称& 类型 & 参数 & 返回类型& 备注\\
+\hline
+\multirow{9}*{属性}
+&id & String & 无 & 无 & 学生的学号\\
+&name & String & 无 & 无 & 学生的姓名\\
+&grade& String & 无 & 无 & 学生的年级\\
+&major& String & 无 & 无 & 学生的专业\\
+&password& String & 无 & 无 & 学生的密码\\
+&headimg& String & 无 & 无 & 学生的头像\\
+&contact& String & 无 & 无 & 学生的号码\\
+&clubs& List<Club> & 无 & 无 & 学生的参加的社团\\
+&activities& List<Activity> & 无 & 无 & 学生参加的活动\\
+\hline
+\multirow{18}*{方法}
+&setId & 无 & String & void & 设置学生的学号\\
+&getId & 无 & 无 & String & 得到学生的学号\\
+&setName & 无 & String & void & 设置学生的名字\\
+&getName & 无 & 无 & String & 得到学生的姓名\\
+&setGrade & 无 & String & void & 设置学生的年级\\
+&getGrade & 无 & 无 & String & 得到学生的年级\\
+&setMajor & 无 & String & void & 设置学生的专业\\
+&getMajor & 无 & 无 & String & 得到学生的专业\\
+&setPassword & 无 & String & void & 设置学生的密码\\
+&getPassword & 无 & 无 & String & 得到学生的密码\\
+&setContact & 无 & String & void & 设置学生的联系方式\\
+&getContact & 无 & 无 & String & 得到学生的联系方式\\
+&setClubs & 无 & List<Club> & void & 设置学生参加的社团\\
+&getClubs & 无 & 无 & String & 得到学生的参加的社团\\
+&setHeadImg & 无 & String & void & 设置学生的头像\\
+&getHeadImg & 无 & 无 & String & 得到学生的头像\\
+&setActivities & 无 & List<Activity> & 无 & 设置学生参加的活动\\
+&getActivities & 无 & 无 & List<Activity> & 得到学生参加的活动\\
+\hline
+\end{tabular}
+
 \paragraph{Teacher}
+Teacher是本系统中管理社团创建和场地申请的老师的实体类，它继承自Student，拥有新的属性applies，具体信息如下图：
+\newline
+\includegraphics[width = 0.5\textwidth]{teacher-class.png}
+\newline
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\multicolumn{6}{|c|}{Teacher}\\
+\hline
+类别& 名称& 类型 & 参数 & 返回类型& 备注\\
+\hline
+\multirow{1}*{属性}
+&applies& List<Apply> & 无 & 无 & 老师收到的请求列表\\
+\hline
+\multirow{2}*{方法}
+&setApplies & 无 & List<Apply> & 无 & 设置老师收到的请求\\
+&getApplies & 无 & 无 & List<Apply> & 得到老师收到的请求\\
+\hline
+\end{tabular}
+
 \paragraph{Activity}
+Activity为本系统中社团活动的实体类，具体属性和方法如下图:
+\newline
+\includegraphics[width = 0.5\textwidth]{activity-class.png}
+\newline
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\multicolumn{6}{|c|}{Activity}\\
+\hline
+类别& 名称& 类型 & 参数 & 返回类型& 备注\\
+\hline
+\multirow{12}*{属性}
+&id & Long & 无 & 无 & 活动的id\\
+&name & String & 无 & 无 & 活动的名称\\
+&location& String & 无 & 无 & 活动地点\\
+&time& Date & 无 & 无 & 活动时间\\
+&contact& String & 无 & 无 & 联系方式\\
+&number& Integer & 无 & 无 & 参加人数\\
+&imgUrl& String & 无 & 无 & 宣传的图片\\
+&description& String & 无 & 无 & 活动的描述\\
+&state& boolean & 无 & 无 & 活动状态\\
+&studentList& List<Student> & 无 & 无 & 参加的学生列表\\
+&commentList& List<Comment> & 无 & 无 & 活动列表\\
+\hline
+\multirow{22}*{方法}
+&setId & 无 & Long & void & 设置活动的id\\
+&getId & 无 & 无 & Long & 得到活动的id\\
+&setName & 无 & String & void & 设置活动的名称\\
+&getName & 无 & 无 & String & 得到活动的名称\\
+&setLocation & 无 & String & void & 设置活动的地点\\
+&getLocation & 无 & 无 & String & 得到活动的地点\\
+&setTime & 无 & Date & void & 设置活动的时间\\
+&getTime & 无 & 无 & Date & 得到活动的时间\\
+&setContact & 无 & String & void & 设置活动的联系方式\\
+&getContact & 无 & 无 & String & 得到活动的联系方式\\
+&setNumber & 无 & Integer & void & 设置参加活动的人数\\
+&getNumber & 无 & 无 & Integer & 得到参加活动的人数\\
+&setImgUrl & 无 & String & void & 设置活动的宣传图片\\
+&getImgUrl & 无 & 无 & String & 得到活动的宣传图片\\
+&setDescription & 无 & String & void & 设置活动的描述\\
+&getDescription & 无 & 无 & String & 得到活动的描述\\
+&setState & 无 & boolean & void & 设置活动的状态\\
+&getState & 无 & 无 & boolean & 得到活动的状态\\
+&setStudentList & 无 & List<Student> & void & 设置活动的参加学生\\
+&getStudentList & 无 & 无 & List<Student> & 得到活动的参加学生\\
+&setCommentList & 无 & List<Comment> & void & 设置活动的评论\\
+&getCommentList & 无 & 无 & List<Comment> & 得到活动的评论\\
+
+
+
+\hline
+\end{tabular}
+
 \paragraph{Apply}
 \paragraph{Club}
 \paragraph{Comment}
