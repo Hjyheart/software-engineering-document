@@ -1,0 +1,113 @@
+% XeLaTeX can use any Mac OS X font. See the setromanfont command below.
+% Input to XeLaTeX is full Unicode, so Unicode characters can be typed directly into the source.
+
+% The next lines tell TeXShop to typeset with xelatex, and to open and save the source with Unicode encoding.
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[UTF8]{ctexart}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{enumerate}
+
+% Will Robertson's fontspec.sty can be used to simplify font choices.
+% To experiment, open /Applications/Font Book to examine the fonts provided on Mac OS X,
+% and change "Hoefler Text" to any of these choices.
+
+\usepackage{fontspec,xltxtra,xunicode}
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont[Mapping=tex-text]{Hoefler Text}
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Gill Sans}
+\setmonofont[Scale=MatchLowercase]{Andale Mono}
+
+\title{\Huge \textbf{软件工程项目文档}  \\
+\large ~~~~~~~ ———— “鲜活”社团管理平台
+ ~\\ ~\\ ~\\ ~\\ ~\\ ~\\ ~\\ ~\\ ~\\ ~\\ ~\\} 
+\author{
+\large 1452822 洪嘉勇 \\
+\large 1454093 夏陈   \\
+\large 1452716 张尹嘉 \\
+} 
+%\date{}                                           % Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+
+% For many users, the previous commands will be enough.
+% If you want to directly input Unicode, add an Input Menu or Keyboard to the menu bar 
+% using the International Panel in System Preferences.
+% Unicode must be typeset using a font containing the appropriate characters.
+% Remove the comment signs below for examples.
+
+% \newfontfamily{\A}{Geeza Pro}
+% \newfontfamily{\H}[Scale=0.9]{Lucida Grande}
+% \newfontfamily{\J}[Scale=0.85]{Osaka}
+
+% Here are some multilingual Unicode fonts: this is Arabic text: {\A السلام عليكم}, this is Hebrew: {\H שלום}, 
+% and here's some Japanese: {\J 今日は}.
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{引言}
+洪
+\subsection{背景}
+
+\subsection{参考资料}
+
+\subsection{假定和约束}
+
+\subsection{用户的特点}
+
+\section{功能需求}
+\subsection{系统范围}
+洪
+\subsection{系统体系结构}
+夏
+\subsection{系统总体流程}
+张
+\subsection{需求分析}
+夏
+\subsection{功能建模}
+夏
+\subsection{数据建模}
+洪
+\subsection{行为建模}
+张
+
+\section{UI 需求}
+洪
+
+\section{非功能需求}
+\subsection{性能需求}
+洪
+\subsubsection{精度}
+
+\subsubsection{时间特性要求}
+
+\subsubsection{输入输出要求}
+
+\subsection{数据管理能力要求}
+张
+\subsection{安全及保密性要求}
+张
+\subsection{灵活性要求}
+夏
+\subsection{其他专门要求}
+夏
+\section{运行环境规定}
+\subsection{设备}
+
+\subsection{支持软件}
+张
+\section{需求跟踪}
+夏
+\section{附录}
+
+\end{document}  
