@@ -15,6 +15,7 @@
 \usepackage{amssymb}
 \usepackage{enumerate}
 \usepackage{booktabs}
+\usepackage{multirow}
 
 % Will Robertson's fontspec.sty can be used to simplify font choices.
 % To experiment, open /Applications/Font Book to examine the fonts provided on Mac OS X,
@@ -30,6 +31,7 @@
 \large ~~~~~~~ ———— “鲜活”社团管理平台
  ~\\ ~\\ ~\\ ~\\ ~\\ ~\\ ~\\ ~\\ ~\\ ~\\ ~\\} 
 \author{
+\large 指导老师：黄杰 \\
 \large 1452822 洪嘉勇 \\
 \large 1454093 夏陈   \\
 \large 1452716 张尹嘉 \\
@@ -65,7 +67,7 @@
 \begin{enumerate}[1)]
 \item 社团审批需要递交的材料多且审批等待时间长，将导致很多新兴社团痛失很多招生机会
 \item 很多社团缺少展示的平台，很多社团因此默默无闻
-\item 社团自身没有统一的管理规范，社团管理一团乱码
+\item 社团自身没有统一的管理规范，社团管理比较混乱
 \item 社团通信流程复杂，通知时间成本高
 \item 社团申请场地和申请海报张贴的流程繁琐，等待时间长
 \end{enumerate}
@@ -78,7 +80,7 @@
 
 \begin{enumerate}[1)]
 \item 互联网已经普及
-\item 师生几乎人人都有手机
+\item 师生群体中智能手机普及率接近100\%
 \item 同济大学“同心云”轻应用可以成为一个很好的展示平台
 \end{enumerate}
 
@@ -105,7 +107,7 @@
 \end{enumerate}
 
 \subsection{用户的特点}
-“鲜活”是一个为同济大学师生服务的社团管理和活动信息共享平台，用户主题为同济大学的师生，我们将所有用户罗列如下：
+“鲜活”是一个为同济大学师生服务的社团管理和活动信息共享平台，用户主体为同济大学的师生，我们将所有用户罗列如下：
 
 \paragraph{老师}
 \subparagraph{概述}
@@ -165,11 +167,19 @@
 \bottomrule
 \end{tabular}
 
-
-
 \section{功能需求}
 \subsection{系统范围}
-洪
+\subsubsection{系统开发的意图}
+旨在开发一个为同济大学师生服务的线上社团管理平台和社团活动共享平台，将社团从创建到招新到发布活动一体化。
+\subsubsection{应用目标}
+本系统的应用目标主要为同济大学“同心云”的轻应用和一个web端。
+\paragraph{“同心云”轻应用}
+本系统将在“同心云”上搭载一个轻应用与服务器相连，用户可以在同心云上查看社团的相关信息并可以进行相关操作，操作将会被同步到web端。但在轻应用上，将不具备社团负责人管理社团的功能，涉及社团更高级的操作将只能在web端登陆之后才可以操作。
+\paragraph{web端}
+web端将是本系统的重点，在web端我们将开放所有版块的功能，而不仅仅是轻应用上的查看和简单操作。社团负责人可以通过web端操作社团，老师可以通过web端审核各种申请。
+
+\subsubsection{作用范围}
+本系统的作用范围为同济大学校内一切拥有同济大学统一认证学号的学生和工号的老师。
 \subsection{系统体系结构}
 夏
 \subsection{系统总体流程}
@@ -179,7 +189,80 @@
 \subsection{功能建模}
 夏
 \subsection{数据建模}
-洪
+本系统的数据模型主要概括为:实体类(Entity)、仓库类（Repository）、服务类(Service)和控制器类(Controller)，本节将着重介绍实体类、仓库类和服务类，控制器类所构成的模型在数据流图中会更加形象，故在本节中略去。
+以下为本系统的类的汇总：
+\newline
+\newline
+\begin{tabular}{|c|c|c|}
+\hline
+\multicolumn{3}{|c|}{汇总}\\
+\hline
+类别& 类名& 备注\\
+\hline
+\multirow{7}*{实体类(Entity)}
+&Student& 学生\\
+&Teacher&老师\\
+&Club&社团\\
+&Activity&活动\\
+&Apply&申请\\
+&Comment&评论\\
+&ClubFile&社团资源文件\\
+\hline
+\multirow{7}*{仓库类(repository)}
+&StudentRepository&学生库\\
+&TeacherRepository&老师库\\
+&ClubRepository&社团库\\
+&ActivityRepository&活动库\\
+&ApplyRepository&请求库\\
+&CommentRepository&评论库\\
+&clubFileRepository&社团文件资源库\\
+\hline
+\multirow{7}*{仓库类(repository)}
+&StudentService&学生库接口\\
+&TeacherService&老师库接口\\
+&ClubService&社团库接口\\
+&ActivityService&活动库接口\\
+&ApplyService&请求库接口\\
+&CommentService&评论库接口\\
+&clubFileService&社团文件资源库接口\\
+\hline
+\end{tabular}
+
+\subsubsection{ER关系图}
+本系统的数据库ER关系图如下：
+\newline
+\includegraphics[width = 1.0\textwidth]{er.eps}
+\paragraph{student \& club}
+如下图所示，student和club以join club关系集维系，二者为多对多的关系，student申请加入club之后二者就相互关联 
+\newline
+\includegraphics[width = 0.8\textwidth]{student-club-er.eps}
+
+\paragraph{club \& activity \& clubFile \& comment}
+如下图所示，club跟activity、clubFile、comment向关联。club与activity为一对多的关系，二者以create关系集维系，club可以创建很多个activity；club与clubFile也是一对多的关系，二者以upload关系集相维系，一个club可以拥有多个clubFile；club与comment也为一对多的关系，二者以comment关系集相维系，一个club可以对应多个comment。
+\newline
+\includegraphics[width = 0.7\textwidth]{club-*-er.eps}
+\paragraph{comment \& activity}
+如下图所示，comment跟activity为一对多的关系，二者以comment关系集相维系，一个activity可以对应有多个comment。
+\newline
+\includegraphics[width = 1.0\textwidth]{activity-comment-er.eps}
+
+\paragraph{apply \& club \& teacher}
+如下图所示，apply和club、teacher相关联，apply与club为多对一的关系，二者以create apply关系集相维系；apply与teacher为多对一的关系，二者以deal apply关系集相维系，一个teacher可以处理多个apply。
+\newline
+\includegraphics[width = 0.8\textwidth]{apply-*-er.eps}
+
+\subsubsection{实体(Entity)}
+本系统中的实体类主要为Student、Teacher、Club、Activity、Apply、Comment、ClubFile:
+\includegraphics[width = 1.0\textwidth]{xianhuo-class.png}
+
+\paragraph{Student}
+\paragraph{Teacher}
+\paragraph{Activity}
+\paragraph{Apply}
+\paragraph{Club}
+\paragraph{Comment}
+\paragraph{ClubFile}
+\subsubsection{仓库类和服务类(repository \& Service)}
 \subsection{行为建模}
 张
 

@@ -129,6 +129,8 @@ INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/tools/enumerate.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/tools/enumerate.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/xltxtra/xltxtra.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/xltxtra/xltxtra.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
@@ -179,4 +181,15 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 OUTPUT 软件工程——鲜活文档.toc
+INPUT er.eps
+INPUT er.eps
+INPUT student-club-er.eps
+INPUT student-club-er.eps
+INPUT club-*-er.eps
+INPUT club-*-er.eps
+INPUT activity-comment-er.eps
+INPUT activity-comment-er.eps
+INPUT apply-*-er.eps
+INPUT apply-*-er.eps
+INPUT xianhuo-class.png
 INPUT 软件工程——鲜活文档.aux
