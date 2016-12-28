@@ -8,7 +8,7 @@
 
 \documentclass[UTF8]{ctexart}
 \usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
-\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ...
 %\geometry{landscape}                % Activate for for rotated page geometry
 %\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
 \usepackage{graphicx}
@@ -29,20 +29,20 @@
 
 \title{\Huge \textbf{软件工程项目文档}  \\
 \large ~~~~~~~ ———— “鲜活”社团管理平台
- ~\\ ~\\ ~\\ ~\\ ~\\ ~\\ ~\\ ~\\ ~\\ ~\\ ~\\} 
+ ~\\ ~\\ ~\\ ~\\ ~\\ ~\\ ~\\ ~\\ ~\\ ~\\ ~\\}
 \author{
 \large 指导老师：黄杰 \\
 \large 1452822 洪嘉勇 \\
 \large 1454093 夏陈   \\
 \large 1452716 张尹嘉 \\
-} 
+}
 %\date{}                                           % Activate to display a given date or no date
 
 \begin{document}
 \maketitle
 
 % For many users, the previous commands will be enough.
-% If you want to directly input Unicode, add an Input Menu or Keyboard to the menu bar 
+% If you want to directly input Unicode, add an Input Menu or Keyboard to the menu bar
 % using the International Panel in System Preferences.
 % Unicode must be typeset using a font containing the appropriate characters.
 % Remove the comment signs below for examples.
@@ -51,7 +51,7 @@
 % \newfontfamily{\H}[Scale=0.9]{Lucida Grande}
 % \newfontfamily{\J}[Scale=0.85]{Osaka}
 
-% Here are some multilingual Unicode fonts: this is Arabic text: {\A السلام عليكم}, this is Hebrew: {\H שלום}, 
+% Here are some multilingual Unicode fonts: this is Arabic text: {\A السلام عليكم}, this is Hebrew: {\H שלום},
 % and here's some Japanese: {\J 今日は}.
 
 \newpage
@@ -61,7 +61,7 @@
 \section{引言}
 \subsection{背景}
 近年来互联网、物联网等发展迅猛，高校校园在这波潮流中可以说是弄潮儿，很多互联网创新平台都在高校中运行得非常稳健。学校也正利用着这股潮流做着相应的改变，校园的管理系统正在渐渐地完善，比如图书馆的预览室已经可以在网上平台预约、校车也可以在网上抢票，但是跟学生们的课余生活最为密切的社团生活似乎并没有纳入学校网络化的考虑范围中。与此同时，我们的社团的活动也开始缺乏新意，社团的团长们缺乏好的点子，而在互联网+的时代下，去创建这样一二个信息共享的渠道是相对容易的，我们渴望在这个时代背景下为同济大学师生创建一个社团管理平台和社团活动信息共享平台，我们将其命名为“鲜活”。
-\paragraph{同济大学社团发展现状} 
+\paragraph{同济大学社团发展现状}
 就目前同济大学校园而言，大多数关于社团的操作都非常地繁琐，通信的时间成本和经济成本都非常高，很多社团的发展因为制度问题而变得不健康。体现在以下方面：
 
 \begin{enumerate}[1)]
@@ -233,7 +233,7 @@ web端将是本系统的重点，在web端我们将开放所有版块的功能�
 \newline
 \includegraphics[width = 1.0\textwidth]{er.eps}
 \paragraph{student \& club}
-如下图所示，student和club以join club关系集维系，二者为多对多的关系，student申请加入club之后二者就相互关联 
+如下图所示，student和club以join club关系集维系，二者为多对多的关系，student申请加入club之后二者就相互关联
 \newline
 \includegraphics[width = 0.8\textwidth]{student-club-er.eps}
 
@@ -341,7 +341,7 @@ Activity为本系统中社团活动的实体类，具体属性和方法如下图
 &description& String & 无 & 无 & 活动的描述\\
 &state& boolean & 无 & 无 & 活动状态\\
 &studentList& List<Student> & 无 & 无 & 参加的学生列表\\
-&commentList& List<Comment> & 无 & 无 & 活动列表\\
+&commentList& List<Comment> & 无 & 无 & 评论列表\\
 \hline
 \multirow{22}*{方法}
 &setId & 无 & Long & void & 设置活动的id\\
@@ -366,17 +366,191 @@ Activity为本系统中社团活动的实体类，具体属性和方法如下图
 &getStudentList & 无 & 无 & List<Student> & 得到活动的参加学生\\
 &setCommentList & 无 & List<Comment> & void & 设置活动的评论\\
 &getCommentList & 无 & 无 & List<Comment> & 得到活动的评论\\
-
-
-
 \hline
 \end{tabular}
 
 \paragraph{Apply}
+Apply为本系统中由社团负责人发起的场地申请或海报申请的实体类，具体信息如下：
+\newline
+\includegraphics[width = 0.5\textwidth]{apply-class.png}
+\newline
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\multicolumn{6}{|c|}{Apply}\\
+\hline
+类别& 名称& 类型 & 参数 & 返回类型& 备注\\
+\hline
+\multirow{8}*{属性}
+&id & Long & 无 & 无 & 申请的id\\
+&clubId & Long & 无 & 无 & 发起申请的社团的id\\
+&type& Integer & 无 & 无 & 申请的类型\\
+&startDate& Date & 无 & 无 & 申请的开始时间节点\\
+&endDate& Date & 无 & 无 & 申请的结束时间节点\\
+&location& String & 无 & 无 & 申请的地点\\
+&description& String & 无 & 无 & 申请的理由\\
+&accept& Integer & 无 & 无 & 申请的状态\\
+\hline
+\multirow{16}*{方法}
+&setId & 无 & Long & void & 设置申请的id\\
+&getId & 无 & 无 & Long & 得到申请的id\\
+&setClubId & 无 & Long & void & 设置申请的社团的id\\
+&getClubId & 无 & 无 & Long & 得到申请的社团的id\\
+&setType & 无 & Integer & void & 设置申请的类型\\
+&getType & 无 & 无 & Integer & 得到申请的类型\\
+&setStartTime & 无 & Date & void & 设置申请的开始的时间节点\\
+&getEndTime & 无 & 无 & Date & 得到申请的开始的时间节点\\
+&setEndTime & 无 & Date & void & 设置申请的结束的时间节点\\
+&getEndTime & 无 & 无 & Date & 得到申请的结束的时间节点\\
+&setLocation & 无 & String & void & 设置申请的地点\\
+&getLocation & 无 & 无 & String & 得到申请的地点\\
+&setDescription & 无 & String & void & 设置申请的理由\\
+&getDescription & 无 & 无 & String & 得到申请理由\\
+&setAccept & 无 & Integer & void & 设置申请的状态\\
+&getAccept & 无 & 无 & Integer & 得到申请的状态\\
+\hline
+\end{tabular}
+
 \paragraph{Club}
+Club为本系统中的核心类，几乎所有操作都会跟这个实体类有一定的关系，其属性和方法也比较多，具体信息如下：
+\newline
+\includegraphics[width = 0.5\textwidth]{club-class.png}
+\newline
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\multicolumn{6}{|c|}{Club}\\
+\hline
+类别& 名称& 类型 & 参数 & 返回类型& 备注\\
+\hline
+\multirow{13}*{属性}
+&id & Long & 无 & 无 & 社团的id\\
+&name & String & 无 & 无 & 社团的名称\\
+&state& Integer & 无 & 无 & 社团的审核状态\\
+&teacher& String & 无 & 无 & 社团的指导老师\\
+&chairmanId& String & 无 & 无 & 社团主席的id\\
+&menberNumber& Integer & 无 & 无 & 社员人数\\
+&imgUrl& String & 无 & 无 & 社团的展示封面\\
+&description& String & 无 & 无 & 社团的描述\\
+&content& String & 无 & 无 & 社团申请标语\\
+&students& List<Student> & 无 & 无 & 社员列表\\
+&activities& List<Activity> & 无 & 无 & 活动列表\\
+&comments& List<Comment> & 无 & 无 & 评论列表\\
+&clubFiles& List<clubFile> & 无 & 无 & 资源文件列表\\
+\hline
+\multirow{26}*{方法}
+&setId & 无 & Long & void & 设置社团的id\\
+&getId & 无 & 无 & Long & 得到社团的id\\
+&setName & 无 & String & void & 设置社团的名称\\
+&getName & 无 & 无 & String & 得到社团的名称\\
+&setState & 无 & Integer & void & 设置社团的审核状态\\
+&getState & 无 & 无 & Integer & 得到社团的审核状态\\
+&setTeacher & 无 & String & void & 设置社团的指导老师\\
+&getTeacher & 无 & 无 & String & 得到社团的指导老师\\
+&setChairManId & 无 & String & void & 设置社团的主席id\\
+&getChairManId & 无 & 无 & String & 得到社团的主席id\\
+&setContent & 无 & String & void & 设置社团的申请标语\\
+&getContent & 无 & 无 & String & 得到社团的申请标语\\
+&setMemberNumber & 无 & Integer & void & 设置参加社员的人数\\
+&getMenberNumber & 无 & 无 & Integer & 得到参加社员的人数\\
+&setImgUrl & 无 & String & void & 设置社团的封面图片\\
+&getImgUrl & 无 & 无 & String & 得到社团的封面图片\\
+&setDescription & 无 & String & void & 设置社团的描述\\
+&getDescription & 无 & 无 & String & 得到社团的描述\\
+&setStudents & 无 & List<Student> & void & 设置社员\\
+&getStudents & 无 & 无 & List<Student> & 得到社员\\
+&setComments & 无 & List<Comment> & void & 设置社团的评论\\
+&getComments & 无 & 无 & List<Comment> & 得到社团的评论\\
+&setActivities & 无 & List<Activity> & 无 & 设置社团活动\\
+&getActivities & 无 & 无 & List<Activity> & 得到社团的活动\\
+&setClubFiles & 无 & List<ClubFile> & 无 & 设置社团资源文件\\
+&getClubFiles & 无 & 无 & List<ClubFile> & 得到社团资源文件\\
+\hline
+\end{tabular}
+
 \paragraph{Comment}
+Comment为本系统中评论的实体类，由Student创建，跟Club和Activity相关联，具体信息如下：
+\newline
+\includegraphics[width = 0.5\textwidth]{comment-class.png}
+\newline
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\multicolumn{6}{|c|}{Comment}\\
+\hline
+类别& 名称& 类型 & 参数 & 返回类型& 备注\\
+\hline
+\multirow{8}*{属性}
+&id & Long & 无 & 无 & 评论的id\\
+&studentId & String & 无 & 无 & 发起评论学生的id\\
+&targetId& Long & 无 & 无 & 评论目标的id\\
+&targetType& Integer & 无 & 无 & 评论目标的类别\\
+&content& String & 无 & 无 & 评论的内容\\
+&activity& Activity & 无 & 无 & 评论的活动\\
+&club& Club & 无 & 无 & 评论的社团\\
+&date& Date & 无 & 无 & 评论的时间\\
+\hline
+\multirow{16}*{方法}
+&setId & 无 & Long & void & 设置评论的id\\
+&getId & 无 & 无 & Long & 得到评论的id\\
+&setStudentId & 无 & String & void & 设置评论学生的id\\
+&getStudentId & 无 & 无 & String & 得到评论学生的id\\
+&setTargetId & 无 & Long & void & 设置评论目标的id\\
+&getTargetId & 无 & 无 & Long & 得到评论目标的id\\
+&setTargetType & 无 & Integer & void & 设置评论目标的类别\\
+&getTargetType & 无 & 无 & Integet & 得到评论目标的类别\\
+&setContent & 无 & String & void & 设置评论内容\\
+&getContent & 无 & 无 & String & 得到评论内容\\
+&setActivity & 无 & Activity & 无 & 设置评论的活动\\
+&getActivity & 无 & 无 & Activity & 得到评论的活动\\
+&setClub & 无 & Club & 无 & 设置评论的社团\\
+&getClub & 无 & 无 & Club & 得到评论的社团\\
+\hline
+\end{tabular}
+
 \paragraph{ClubFile}
+ClubFile为本系统中社团资源文件的实体类，由Club创建，由七牛云托管，具体信息如下：
+\newline
+\includegraphics[width = 0.5\textwidth]{clubfile-class.png}
+\newline
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\multicolumn{6}{|c|}{ClubFile}\\
+\hline
+类别& 名称& 类型 & 参数 & 返回类型& 备注\\
+\hline
+\multirow{4}*{属性}
+&id & Long & 无 & 无 & 资源文件的id\\
+&name & String & 无 & 无 & 资源文件的名称\\
+&url& String & 无 & 无 & 资源文件的下载地址\\
+&clubId& Long & 无 & 无 & 对应社团的id\\
+\hline
+\multirow{8}*{方法}
+&setId & 无 & Long & void & 设置资源文件的id\\
+&getId & 无 & 无 & Long & 得到资源文件的id\\
+&setName & 无 & String & void & 设置资源文件的名称\\
+&getName & 无 & 无 & String & 得到资源文件的名称\\
+&setUrl & 无 & String & void & 设置资源文件的下载地址\\
+&getUrl & 无 & 无 & String & 得到资源文件的下载地址\\
+&setClubId & 无 & Long & void & 设置对应社团的id\\
+&getClubId & 无 & 无 & Long & 得到对应社团的id\\
+\hline
+\end{tabular}
+
 \subsubsection{仓库类和服务类(repository \& Service)}
+仓库类和服务类是本项目中不可或缺的一部分，它们管理着实例，为上层的controller提供数据支持，其类图如下:
+\newline
+\includegraphics[width = 1.1\textwidth]{repository-service.png}
+
+\paragraph{StudentRepository \& StudentService}
+StudentRepository和StudentService在本系统中担任管理学生业务的重任，对实体类Student进行一层封装，使其增删改查变的非常容易，以下为其具体细节：
+\newline
+\includegraphics[width = 0.4\textwidth]{student-rs.png}
+\newline
+\paragraph{ClubRepository \& ClubService}
+\paragraph{ActivityRepository \& ActivityService}
+\paragraph{ApplyRepository \& ApplyService}
+\paragraph{CommentRepository \& CommentService}
+\paragraph{FileRepository \& FileService}
+\paragraph{EncryptionRepository \& EncryptionRepository}
+
 \subsection{行为建模}
 张
 
@@ -409,4 +583,4 @@ Activity为本系统中社团活动的实体类，具体属性和方法如下图
 夏
 \section{附录}
 
-\end{document}  
+\end{document}

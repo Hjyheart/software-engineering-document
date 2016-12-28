@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.9.19)  28 DEC 2016 01:29
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.9.19)  28 DEC 2016 16:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1538,11 +1538,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Font shape `EU1/HoeflerText(0)/m/sl' in size <10.53937> not
  available
 (Font)              Font shape `EU1/HoeflerText(0)/m/it' tried instead on input
- line 58.
+ line 65.
 LaTeX Font Info:    Font shape `EU1/STSong(0)/m/sl' in size <10.53937> not avai
 lable
 (Font)              Font shape `EU1/STSong(0)/m/it' tried instead on input line
- 58.
+ 65.
  [2])
 \tf@toc=\write3
 \openout3 = `软件工程——鲜活文档.toc'.
@@ -1607,7 +1607,7 @@ File: teacher-class.png Graphic file (type QTm)
  <use  "teacher-class.png" > [17]
 File: activity-class.png Graphic file (type QTm)
  <use  "activity-class.png" >
-Overfull \hbox (56.28738pt too wide) in paragraph at lines 323--374
+Overfull \hbox (56.28738pt too wide) in paragraph at lines 323--371
 [] 
  []
 
@@ -1615,14 +1615,50 @@ Overfull \hbox (56.28738pt too wide) in paragraph at lines 323--374
 Overfull \vbox (15.9737pt too high) has occurred while \output is active []
 
 
-[20] [21] [22] (./软件工程——鲜活文档.aux) ) 
+[20]
+File: apply-class.png Graphic file (type QTm)
+ <use  "apply-class.png" > [21]
+File: club-class.png Graphic file (type QTm)
+ <use  "club-class.png" >
+Overfull \hbox (68.13364pt too wide) in paragraph at lines 414--468
+[] 
+ []
+
+[22]
+Overfull \vbox (33.06107pt too high) has occurred while \output is active []
+
+
+[23]
+Overfull \vbox (114.62231pt too high) has occurred while \output is active []
+
+
+[24]
+File: comment-class.png Graphic file (type QTm)
+ <use  "comment-class.png" > [25]
+File: clubfile-class.png Graphic file (type QTm)
+ <use  "clubfile-class.png" > [26]
+File: repository-service.png Graphic file (type QTm)
+
+<use  "repository-service.png" >
+Overfull \hbox (43.00308pt too wide) in paragraph at lines 538--541
+[] 
+ []
+
+[27]
+File: student-rs.png Graphic file (type QTm)
+ <use  "student-rs.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 543--547
+
+ []
+
+[28] [29] [30] (./软件工程——鲜活文档.aux) ) 
 Here is how much of TeX's memory you used:
- 21185 strings out of 493591
- 443854 string characters out of 6143546
- 425476 words of memory out of 5000000
- 24339 multiletter control sequences out of 15000+600000
+ 21197 strings out of 493591
+ 444054 string characters out of 6143546
+ 438476 words of memory out of 5000000
+ 24345 multiletter control sequences out of 15000+600000
  11550 words of font info for 85 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  65i,8n,105p,10516b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 软件工程——鲜活文档.pdf (22 pages).
+Output written on 软件工程——鲜活文档.pdf (30 pages).
