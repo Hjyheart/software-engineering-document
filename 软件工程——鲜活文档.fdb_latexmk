@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1482930187 "软件工程——鲜活文档.tex" "软件工程——鲜活文档.pdf" "软件工程——鲜活文档" 1482930192
+["pdflatex"] 1482934656 "软件工程——鲜活文档.tex" "软件工程——鲜活文档.pdf" "软件工程——鲜活文档" 1482934664
   "/Library/Fonts/Songti.ttc" 1470021522 66954320 afb3198e641fa1b263f1b34aa518e75d ""
-  "/dev/null" 1482930190 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/dev/null" 1482934616 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -118,12 +118,14 @@
   "student-club-er.eps" 1482845829 51642 9137189b971b4784600a531536edc2c9 ""
   "student-rs.png" 1482914868 21886 924cf052198bcb0ce24f1c0dd8ae5e78 ""
   "teacher-class.png" 1482856949 6124 cb95137d55e9efdac37211eb99cf0772 ""
+  "tongxinyun.eps" 1482934577 18269085 12e9568b9ac566320724c464359a5df6 ""
+  "web.eps" 1482933657 23789947 3fc814c29cafa6a88b96beabac908665 ""
   "xianhuo-class.png" 1482839764 261558 6c1a6ca185f566b412bb862f3ea24bb3 ""
-  "软件工程——鲜活文档.aux" 1482930191 5984 a90abc0463fa9f25cbd68d2a040bcd42 ""
-  "软件工程——鲜活文档.tex" 1482930186 33779 72c58da69ed09d49bbb0ed47ca3b22ae ""
-  "软件工程——鲜活文档.toc" 1482930191 3815 a70efccc7bbf6c97d6686b98337889d9 ""
+  "软件工程——鲜活文档.aux" 1482934661 7378 55e53ebf4f865d3cca2bb688c8711c33 ""
+  "软件工程——鲜活文档.tex" 1482934648 34976 6964abbacf5c2c8adbe9fbebbe0bc4e2 ""
+  "软件工程——鲜活文档.toc" 1482934661 4903 0a5ac5d0795dfe39fee82f2a319e0749 ""
   (generated)
-  "软件工程——鲜活文档.pdf"
+  "软件工程——鲜活文档.log"
   "软件工程——鲜活文档.toc"
   "软件工程——鲜活文档.aux"
-  "软件工程——鲜活文档.log"
+  "软件工程——鲜活文档.pdf"
