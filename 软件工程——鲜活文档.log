@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.9.19)  28 DEC 2016 16:49
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.9.19)  28 DEC 2016 21:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1197,6 +1197,14 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 (/usr/local/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen196
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count144
+\float@exts=\toks22
+\float@box=\box54
+\@float@everytoks=\toks23
+\@floatcapt=\box55
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/xltxtra/xltxtra.sty
 Package: xltxtra 2016/01/21 v0.6 Improvements for the "XeLaTeX" format
 
@@ -1251,23 +1259,23 @@ ts
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/metalogo/metalogo.sty
 Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
-\xl@everylogo=\toks22
-\xl@@everylogo=\toks23
+\xl@everylogo=\toks24
+\xl@@everylogo=\toks25
 LaTeX Info: Redefining \TeX on input line 193.
 LaTeX Info: Redefining \LaTeX on input line 202.
 LaTeX Info: Redefining \LaTeXe on input line 219.
 )
-\l__xetex_show_hyphens_wrapping_box=\box54
-\l__xetex_show_hyphens_temp_box=\box55
-\l__xetex_show_hyphens_final_box=\box56
-\g__xetex_show_hyphens_word_box=\box57
+\l__xetex_show_hyphens_wrapping_box=\box56
+\l__xetex_show_hyphens_temp_box=\box57
+\l__xetex_show_hyphens_final_box=\box58
+\g__xetex_show_hyphens_word_box=\box59
 )
 .................................................
 . fontspec info: "no-scripts"
 . 
 . Font Hoefler Text does not contain any OpenType `Script' information.
 .................................................
-\g__fontspec_family_HoeflerText_int=\count144
+\g__fontspec_family_HoeflerText_int=\count145
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1305,7 +1313,7 @@ LaTeX Info: Redefining \LaTeXe on input line 219.
 . 
 . Gill Sans scale = 0.9415290905812965.
 .................................................
-\g__fontspec_family_GillSans_int=\count145
+\g__fontspec_family_GillSans_int=\count146
 .................................................
 . fontspec info: "set-scale"
 . 
@@ -1356,7 +1364,7 @@ LaTeX Info: Redefining \LaTeXe on input line 219.
 . 
 . Andale Mono scale = 0.8149801587301587.
 .................................................
-\g__fontspec_family_AndaleMono_int=\count146
+\g__fontspec_family_AndaleMono_int=\count147
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1534,131 +1542,251 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 ]
-(./软件工程——鲜活文档.toc
-LaTeX Font Info:    Font shape `EU1/HoeflerText(0)/m/sl' in size <10.53937> not
- available
-(Font)              Font shape `EU1/HoeflerText(0)/m/it' tried instead on input
- line 65.
-LaTeX Font Info:    Font shape `EU1/STSong(0)/m/sl' in size <10.53937> not avai
-lable
-(Font)              Font shape `EU1/STSong(0)/m/it' tried instead on input line
- 65.
- [2])
+(./软件工程——鲜活文档.toc)
 \tf@toc=\write3
 \openout3 = `软件工程——鲜活文档.toc'.
 
- [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 116--130
+LaTeX Font Info:    Font shape `EU1/HoeflerText(0)/m/sl' in size <10.53937> not
+ available
+(Font)              Font shape `EU1/HoeflerText(0)/m/it' tried instead on input
+ line 59.
+LaTeX Font Info:    Font shape `EU1/STSong(0)/m/sl' in size <10.53937> not avai
+lable
+(Font)              Font shape `EU1/STSong(0)/m/it' tried instead on input line
+ 59.
+ [2] [3] [4]
+Overfull \hbox (15.57008pt too wide) in paragraph at lines 122--133
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--133
 
  []
 
 
-Overfull \hbox (15.57008pt too wide) in paragraph at lines 116--130
-[] 
+Underfull \hbox (badness 10000) in paragraph at lines 116--133
+
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 135--151
+Overfull \hbox (45.05923pt too wide) in paragraph at lines 145--158
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--158
 
  []
 
 
-Overfull \hbox (45.05923pt too wide) in paragraph at lines 135--151
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--169
+Underfull \hbox (badness 10000) in paragraph at lines 139--158
 
  []
 
-[6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 192--230
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 164--180
 
  []
 
-[8]
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--180
+
+ []
+
+[7]
+File: package.png Graphic file (type QTm)
+ <use  "package.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 204--212
+
+ []
+
+[8] [9]
 File: er.eps Graphic file (type eps)
- <er.eps> [9]
-File: student-club-er.eps Graphic file (type eps)
- <student-club-er.eps> [10]
-File: club-*-er.eps Graphic file (type eps)
- <club-*-er.eps> [11]
-File: activity-comment-er.eps Graphic file (type eps)
+ <er.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 253--258
 
-<activity-comment-er.eps> [12]
-File: apply-*-er.eps Graphic file (type eps)
- <apply-*-er.eps> [13]
-File: xianhuo-class.png Graphic file (type QTm)
-
-<use  "xianhuo-class.png" > [14]
-Overfull \vbox (50.22229pt too high) has occurred while \output is active []
-
-
-[15]
-File: student-class.png Graphic file (type QTm)
- <use  "student-class.png" >
-Overfull \hbox (16.39587pt too wide) in paragraph at lines 259--301
-[] 
  []
+
+[10]
+File: student-club-er.eps Graphic file (type eps)
+ <student-club-er.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 261--266
+
+ []
+
+[11]
+File: club-*-er.eps Graphic file (type eps)
+ <club-*-er.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 269--274
+
+ []
+
+[12]
+File: activity-comment-er.eps Graphic file (type eps)
+ <activity-comment-er.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 277--282
+
+ []
+
+[13]
+File: apply-*-er.eps Graphic file (type eps)
+ <apply-*-er.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 285--290
+
+ []
+
+[14]
+File: xianhuo-class.png Graphic file (type QTm)
+ <use  "xianhuo-class.png" > [15]
+Overfull \vbox (13.14662pt too high) has occurred while \output is active []
+
 
 [16]
-File: teacher-class.png Graphic file (type QTm)
- <use  "teacher-class.png" > [17]
-File: activity-class.png Graphic file (type QTm)
- <use  "activity-class.png" >
-Overfull \hbox (56.28738pt too wide) in paragraph at lines 323--371
-[] 
+File: student-class.png Graphic file (type QTm)
+ <use  "student-class.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 300--305
+
  []
 
-[18] [19]
-Overfull \vbox (15.9737pt too high) has occurred while \output is active []
+
+Overfull \hbox (16.39587pt too wide) in paragraph at lines 309--347
+ [][] 
+ []
+
+[17]
+File: teacher-class.png Graphic file (type QTm)
+ <use  "teacher-class.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 350--355
+
+ []
+
+[18]
+File: activity-class.png Graphic file (type QTm)
+ <use  "activity-class.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 376--381
+
+ []
 
 
-[20]
+Overfull \hbox (56.28738pt too wide) in paragraph at lines 385--429
+ [][] 
+ []
+
+[19] [20]
+Overfull \vbox (43.09271pt too high) has occurred while \output is active []
+
+
+[21]
 File: apply-class.png Graphic file (type QTm)
- <use  "apply-class.png" > [21]
-File: club-class.png Graphic file (type QTm)
- <use  "club-class.png" >
-Overfull \hbox (68.13364pt too wide) in paragraph at lines 414--468
-[] 
+ <use  "apply-class.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 432--437
+
  []
 
 [22]
+File: club-class.png Graphic file (type QTm)
+ <use  "club-class.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 479--484
+
+ []
+
+
+Overfull \hbox (68.13364pt too wide) in paragraph at lines 488--538
+ [][] 
+ []
+
+[23]
 Overfull \vbox (33.06107pt too high) has occurred while \output is active []
 
 
-[23]
-Overfull \vbox (114.62231pt too high) has occurred while \output is active []
-
-
 [24]
-File: comment-class.png Graphic file (type QTm)
- <use  "comment-class.png" > [25]
-File: clubfile-class.png Graphic file (type QTm)
- <use  "clubfile-class.png" > [26]
-File: repository-service.png Graphic file (type QTm)
+Overfull \vbox (141.1722pt too high) has occurred while \output is active []
 
-<use  "repository-service.png" >
-Overfull \hbox (43.00308pt too wide) in paragraph at lines 538--541
-[] 
+
+[25]
+File: comment-class.png Graphic file (type QTm)
+ <use  "comment-class.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 541--546
+
+ []
+
+[26]
+File: clubfile-class.png Graphic file (type QTm)
+ <use  "clubfile-class.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 586--591
+
  []
 
 [27]
-File: student-rs.png Graphic file (type QTm)
- <use  "student-rs.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 543--547
+File: repository-service.png Graphic file (type QTm)
+ <use  "repository-service.png" >
+Overfull \hbox (43.00308pt too wide) in paragraph at lines 625--626
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 621--626
 
  []
 
-[28] [29] [30] (./软件工程——鲜活文档.aux) ) 
+[28]
+File: student-rs.png Graphic file (type QTm)
+ <use  "student-rs.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 629--634
+
+ []
+
+[29]
+File: club-rs.png Graphic file (type QTm)
+ <use  "club-rs.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 649--654
+
+ []
+
+[30]
+File: activity-rs.png Graphic file (type QTm)
+ <use  "activity-rs.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 671--676
+
+ []
+
+[31]
+File: apply-rs.png Graphic file (type QTm)
+ <use  "apply-rs.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 693--698
+
+ []
+
+[32]
+File: comment-rs.png Graphic file (type QTm)
+ <use  "comment-rs.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 709--714
+
+ []
+
+[33]
+File: clubfile-rs.png Graphic file (type QTm)
+ <use  "clubfile-rs.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 727--732
+
+ []
+
+[34]
+File: Encryption-rs.png Graphic file (type QTm)
+ <use  "Encryption-rs.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 739--744
+
+ []
+
+[35] [36] [37] (./软件工程——鲜活文档.aux) ) 
 Here is how much of TeX's memory you used:
- 21197 strings out of 493591
- 444054 string characters out of 6143546
- 438476 words of memory out of 5000000
- 24345 multiletter control sequences out of 15000+600000
+ 21273 strings out of 493591
+ 445049 string characters out of 6143546
+ 439476 words of memory out of 5000000
+ 24410 multiletter control sequences out of 15000+600000
  11550 words of font info for 85 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 65i,8n,105p,10516b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,9n,105p,10516b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 软件工程——鲜活文档.pdf (30 pages).
+Output written on 软件工程——鲜活文档.pdf (37 pages).

@@ -14,54 +14,54 @@
 \contentsline {subparagraph}{概述}{6}
 \contentsline {subparagraph}{具体可执行操作}{6}
 \contentsline {paragraph}{普通学生}{6}
-\contentsline {subparagraph}{概述}{6}
+\contentsline {subparagraph}{概述}{7}
 \contentsline {subparagraph}{具体可执行操作}{7}
 \contentsline {section}{\numberline {2}功能需求}{7}
 \contentsline {subsection}{\numberline {2.1}系统范围}{7}
 \contentsline {subsubsection}{\numberline {2.1.1}系统开发的意图}{7}
 \contentsline {subsubsection}{\numberline {2.1.2}应用目标}{7}
 \contentsline {paragraph}{“同心云”轻应用}{7}
-\contentsline {paragraph}{web端}{7}
-\contentsline {subsubsection}{\numberline {2.1.3}作用范围}{7}
-\contentsline {subsection}{\numberline {2.2}系统体系结构}{7}
+\contentsline {paragraph}{web端}{8}
+\contentsline {subsubsection}{\numberline {2.1.3}作用范围}{8}
+\contentsline {subsection}{\numberline {2.2}系统体系结构}{8}
 \contentsline {subsection}{\numberline {2.3}系统总体流程}{8}
 \contentsline {subsection}{\numberline {2.4}需求分析}{8}
-\contentsline {subsection}{\numberline {2.5}功能建模}{8}
-\contentsline {subsection}{\numberline {2.6}数据建模}{8}
-\contentsline {subsubsection}{\numberline {2.6.1}ER关系图}{10}
-\contentsline {paragraph}{student \& club}{10}
-\contentsline {paragraph}{club \& activity \& clubFile \& comment}{11}
-\contentsline {paragraph}{comment \& activity}{12}
-\contentsline {paragraph}{apply \& club \& teacher}{13}
-\contentsline {subsubsection}{\numberline {2.6.2}实体(Entity)}{15}
-\contentsline {paragraph}{Student}{16}
-\contentsline {paragraph}{Teacher}{17}
-\contentsline {paragraph}{Activity}{19}
-\contentsline {paragraph}{Apply}{21}
-\contentsline {paragraph}{Club}{22}
-\contentsline {paragraph}{Comment}{25}
-\contentsline {paragraph}{ClubFile}{26}
-\contentsline {subsubsection}{\numberline {2.6.3}仓库类和服务类(repository \& Service)}{27}
-\contentsline {paragraph}{StudentRepository \& StudentService}{28}
-\contentsline {paragraph}{ClubRepository \& ClubService}{29}
-\contentsline {paragraph}{ActivityRepository \& ActivityService}{29}
-\contentsline {paragraph}{ApplyRepository \& ApplyService}{29}
-\contentsline {paragraph}{CommentRepository \& CommentService}{29}
-\contentsline {paragraph}{FileRepository \& FileService}{29}
-\contentsline {paragraph}{EncryptionRepository \& EncryptionRepository}{29}
-\contentsline {subsection}{\numberline {2.7}行为建模}{29}
-\contentsline {section}{\numberline {3}UI 需求}{29}
-\contentsline {section}{\numberline {4}非功能需求}{29}
-\contentsline {subsection}{\numberline {4.1}性能需求}{29}
-\contentsline {subsubsection}{\numberline {4.1.1}精度}{29}
-\contentsline {subsubsection}{\numberline {4.1.2}时间特性要求}{29}
-\contentsline {subsubsection}{\numberline {4.1.3}输入输出要求}{29}
-\contentsline {subsection}{\numberline {4.2}数据管理能力要求}{29}
-\contentsline {subsection}{\numberline {4.3}安全及保密性要求}{30}
-\contentsline {subsection}{\numberline {4.4}灵活性要求}{30}
-\contentsline {subsection}{\numberline {4.5}其他专门要求}{30}
-\contentsline {section}{\numberline {5}运行环境规定}{30}
-\contentsline {subsection}{\numberline {5.1}设备}{30}
-\contentsline {subsection}{\numberline {5.2}支持软件}{30}
-\contentsline {section}{\numberline {6}需求跟踪}{30}
-\contentsline {section}{\numberline {7}附录}{30}
+\contentsline {subsubsection}{\numberline {2.4.1}功能建模}{8}
+\contentsline {subsubsection}{\numberline {2.4.2}数据建模}{8}
+\contentsline {paragraph}{ER关系图}{10}
+\contentsline {subparagraph}{student \& club}{11}
+\contentsline {subparagraph}{club \& activity \& clubFile \& comment}{12}
+\contentsline {subparagraph}{comment \& activity}{13}
+\contentsline {subparagraph}{apply \& club \& teacher}{14}
+\contentsline {paragraph}{实体(Entity)}{15}
+\contentsline {subparagraph}{Student}{17}
+\contentsline {subparagraph}{Teacher}{18}
+\contentsline {subparagraph}{Activity}{19}
+\contentsline {subparagraph}{Apply}{22}
+\contentsline {subparagraph}{Club}{23}
+\contentsline {subparagraph}{Comment}{26}
+\contentsline {subparagraph}{ClubFile}{27}
+\contentsline {paragraph}{仓库类和服务类(repository \& Service)}{28}
+\contentsline {subparagraph}{StudentRepository \& StudentService}{29}
+\contentsline {subparagraph}{ClubRepository \& ClubService}{30}
+\contentsline {subparagraph}{ActivityRepository \& ActivityService}{31}
+\contentsline {subparagraph}{ApplyRepository \& ApplyService}{32}
+\contentsline {subparagraph}{CommentRepository \& CommentService}{33}
+\contentsline {subparagraph}{FileRepository \& FileService}{34}
+\contentsline {subparagraph}{EncryptionService}{35}
+\contentsline {subsubsection}{\numberline {2.4.3}行为建模}{36}
+\contentsline {section}{\numberline {3}UI 需求}{36}
+\contentsline {section}{\numberline {4}非功能需求}{36}
+\contentsline {subsection}{\numberline {4.1}性能需求}{36}
+\contentsline {subsubsection}{\numberline {4.1.1}精度}{36}
+\contentsline {subsubsection}{\numberline {4.1.2}时间特性要求}{36}
+\contentsline {subsubsection}{\numberline {4.1.3}输入输出要求}{36}
+\contentsline {subsection}{\numberline {4.2}数据管理能力要求}{36}
+\contentsline {subsection}{\numberline {4.3}安全及保密性要求}{36}
+\contentsline {subsection}{\numberline {4.4}灵活性要求}{36}
+\contentsline {subsection}{\numberline {4.5}其他专门要求}{37}
+\contentsline {section}{\numberline {5}运行环境规定}{37}
+\contentsline {subsection}{\numberline {5.1}设备}{37}
+\contentsline {subsection}{\numberline {5.2}支持软件}{37}
+\contentsline {section}{\numberline {6}需求跟踪}{37}
+\contentsline {section}{\numberline {7}附录}{37}

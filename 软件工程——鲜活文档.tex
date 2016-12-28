@@ -16,7 +16,7 @@
 \usepackage{enumerate}
 \usepackage{booktabs}
 \usepackage{multirow}
-
+\usepackage{float}
 % Will Robertson's fontspec.sty can be used to simplify font choices.
 % To experiment, open /Applications/Font Book to examine the fonts provided on Mac OS X,
 % and change "Hoefler Text" to any of these choices.
@@ -116,6 +116,9 @@
 老师具体可执行的操作如下：
 \newline
 \newline
+\begin{table}[H]
+\centering
+\caption{老师}
 \begin{tabular}{ccc}
 \toprule
 操作& 描述\\
@@ -127,6 +130,7 @@
 \textbf{同意社团的场地申请}&老师将审阅社团的场地申请请求并根据场地借用记录决定是否出借场地\\
 \bottomrule
 \end{tabular}
+\end{table}
 
 \paragraph{社团负责人}
 \subparagraph{概述}
@@ -135,6 +139,9 @@
 社团负责人可执行的操作如下：
 \newline
 \newline
+\begin{table}[H]
+\centering
+\caption{社团负责人}
 \begin{tabular}{ccc}
 \toprule
 操作& 描述\\
@@ -148,6 +155,7 @@
 \textbf{评论}& 社团负责人可以评论不是自己的社团但是他可以评论任何活动\\
 \bottomrule
 \end{tabular}
+\end{table}
 
 \paragraph{普通学生}
 \subparagraph{概述}
@@ -156,6 +164,9 @@
 普通学生可执行的操作如下：
 \newline
 \newline
+\begin{table}[H]
+\centering
+\caption{普通学生}
 \begin{tabular}{ccc}
 \toprule
 操作& 描述\\
@@ -166,6 +177,7 @@
 \textbf{评论}& 普通学生可以评论任何社团或者任何活动\\
 \bottomrule
 \end{tabular}
+\end{table}
 
 \section{功能需求}
 \subsection{系统范围}
@@ -186,13 +198,21 @@ web端将是本系统的重点，在web端我们将开放所有版块的功能�
 张
 \subsection{需求分析}
 夏
-\subsection{功能建模}
+\subsubsection{功能建模}
 夏
-\subsection{数据建模}
+\subsubsection{数据建模}
 本系统的数据模型主要概括为:实体类(Entity)、仓库类（Repository）、服务类(Service)和控制器类(Controller)，本节将着重介绍实体类、仓库类和服务类，控制器类所构成的模型在数据流图中会更加形象，故在本节中略去。
-以下为本系统的类的汇总：
+以下为本系统的数据包图和全部类的汇总：
 \newline
 \newline
+\begin{figure}
+\centering
+\includegraphics[width = 0.7\textwidth]{package.png}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\caption{类汇总}
 \begin{tabular}{|c|c|c|}
 \hline
 \multicolumn{3}{|c|}{汇总}\\
@@ -227,39 +247,65 @@ web端将是本系统的重点，在web端我们将开放所有版块的功能�
 &clubFileService&社团文件资源库接口\\
 \hline
 \end{tabular}
+\end{table}
 
-\subsubsection{ER关系图}
+\paragraph{ER关系图}
 本系统的数据库ER关系图如下：
 \newline
+\begin{figure}[H]
+\centering
 \includegraphics[width = 1.0\textwidth]{er.eps}
-\paragraph{student \& club}
+\end{figure}
+
+\subparagraph{student \& club}
 如下图所示，student和club以join club关系集维系，二者为多对多的关系，student申请加入club之后二者就相互关联
 \newline
+\begin{figure}[H]
+\centering
 \includegraphics[width = 0.8\textwidth]{student-club-er.eps}
+\end{figure}
 
-\paragraph{club \& activity \& clubFile \& comment}
+\subparagraph{club \& activity \& clubFile \& comment}
 如下图所示，club跟activity、clubFile、comment向关联。club与activity为一对多的关系，二者以create关系集维系，club可以创建很多个activity；club与clubFile也是一对多的关系，二者以upload关系集相维系，一个club可以拥有多个clubFile；club与comment也为一对多的关系，二者以comment关系集相维系，一个club可以对应多个comment。
 \newline
+\begin{figure}[H]
+\centering
 \includegraphics[width = 0.7\textwidth]{club-*-er.eps}
-\paragraph{comment \& activity}
+\end{figure}
+
+\subparagraph{comment \& activity}
 如下图所示，comment跟activity为一对多的关系，二者以comment关系集相维系，一个activity可以对应有多个comment。
 \newline
+\begin{figure}[H]
+\centering
 \includegraphics[width = 1.0\textwidth]{activity-comment-er.eps}
+\end{figure}
 
-\paragraph{apply \& club \& teacher}
+\subparagraph{apply \& club \& teacher}
 如下图所示，apply和club、teacher相关联，apply与club为多对一的关系，二者以create apply关系集相维系；apply与teacher为多对一的关系，二者以deal apply关系集相维系，一个teacher可以处理多个apply。
 \newline
+\begin{figure}[H]
+\centering
 \includegraphics[width = 0.8\textwidth]{apply-*-er.eps}
+\end{figure}
 
-\subsubsection{实体(Entity)}
+\paragraph{实体(Entity)}
 本系统中的实体类主要为Student、Teacher、Club、Activity、Apply、Comment、ClubFile:
+\begin{figure}[H]
+\centering
 \includegraphics[width = 1.0\textwidth]{xianhuo-class.png}
+\end{figure}
 
-\paragraph{Student}
+\subparagraph{Student}
 Student为本系统中普通用户、社团负责人和老师的实体，Teacher继承自Student，具体属性和方法如下图:
 \newline
+\begin{figure}[H]
+\centering
 \includegraphics[width = 0.5\textwidth]{student-class.png}
-\newline
+\end{figure}
+\begin{table}[H]
+\centering
+\caption{Student类}
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
 \multicolumn{6}{|c|}{Student}\\
@@ -298,12 +344,18 @@ Student为本系统中普通用户、社团负责人和老师的实体，Teacher
 &getActivities & 无 & 无 & List<Activity> & 得到学生参加的活动\\
 \hline
 \end{tabular}
+\end{table}
 
-\paragraph{Teacher}
+\subparagraph{Teacher}
 Teacher是本系统中管理社团创建和场地申请的老师的实体类，它继承自Student，拥有新的属性applies，具体信息如下图：
 \newline
+\begin{figure}[H]
+\centering
 \includegraphics[width = 0.5\textwidth]{teacher-class.png}
-\newline
+\end{figure}
+\begin{table}[H]
+\centering
+\caption{Teacher类}
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
 \multicolumn{6}{|c|}{Teacher}\\
@@ -318,12 +370,18 @@ Teacher是本系统中管理社团创建和场地申请的老师的实体类，�
 &getApplies & 无 & 无 & List<Apply> & 得到老师收到的请求\\
 \hline
 \end{tabular}
+\end{table}
 
-\paragraph{Activity}
+\subparagraph{Activity}
 Activity为本系统中社团活动的实体类，具体属性和方法如下图:
 \newline
+\begin{figure}[H]
+\centering
 \includegraphics[width = 0.5\textwidth]{activity-class.png}
-\newline
+\end{figure}
+\begin{table}[H]
+\centering
+\caption{Activity类}
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
 \multicolumn{6}{|c|}{Activity}\\
@@ -368,12 +426,18 @@ Activity为本系统中社团活动的实体类，具体属性和方法如下图
 &getCommentList & 无 & 无 & List<Comment> & 得到活动的评论\\
 \hline
 \end{tabular}
+\end{table}
 
-\paragraph{Apply}
+\subparagraph{Apply}
 Apply为本系统中由社团负责人发起的场地申请或海报申请的实体类，具体信息如下：
 \newline
+\begin{figure}[H]
+\centering
 \includegraphics[width = 0.5\textwidth]{apply-class.png}
-\newline
+\end{figure}
+\begin{table}[H]
+\centering
+\caption{Apply类}
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
 \multicolumn{6}{|c|}{Apply}\\
@@ -409,12 +473,18 @@ Apply为本系统中由社团负责人发起的场地申请或海报申请的实
 &getAccept & 无 & 无 & Integer & 得到申请的状态\\
 \hline
 \end{tabular}
+\end{table}
 
-\paragraph{Club}
+\subparagraph{Club}
 Club为本系统中的核心类，几乎所有操作都会跟这个实体类有一定的关系，其属性和方法也比较多，具体信息如下：
 \newline
+\begin{figure}[H]
+\centering
 \includegraphics[width = 0.5\textwidth]{club-class.png}
-\newline
+\end{figure}
+\begin{table}[H]
+\centering
+\caption{Club类}
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
 \multicolumn{6}{|c|}{Club}\\
@@ -465,12 +535,18 @@ Club为本系统中的核心类，几乎所有操作都会跟这个实体类有�
 &getClubFiles & 无 & 无 & List<ClubFile> & 得到社团资源文件\\
 \hline
 \end{tabular}
+\end{table}
 
-\paragraph{Comment}
+\subparagraph{Comment}
 Comment为本系统中评论的实体类，由Student创建，跟Club和Activity相关联，具体信息如下：
 \newline
+\begin{figure}[H]
+\centering
 \includegraphics[width = 0.5\textwidth]{comment-class.png}
-\newline
+\end{figure}
+\begin{table}[H]
+\centering
+\caption{Comment类}
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
 \multicolumn{6}{|c|}{Comment}\\
@@ -504,12 +580,18 @@ Comment为本系统中评论的实体类，由Student创建，跟Club和Activity
 &getClub & 无 & 无 & Club & 得到评论的社团\\
 \hline
 \end{tabular}
+\end{table}
 
-\paragraph{ClubFile}
+\subparagraph{ClubFile}
 ClubFile为本系统中社团资源文件的实体类，由Club创建，由七牛云托管，具体信息如下：
 \newline
+\begin{figure}[H]
+\centering
 \includegraphics[width = 0.5\textwidth]{clubfile-class.png}
-\newline
+\end{figure}
+\begin{table}[H]
+\centering
+\caption{ClubFile类}
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
 \multicolumn{6}{|c|}{ClubFile}\\
@@ -533,25 +615,147 @@ ClubFile为本系统中社团资源文件的实体类，由Club创建，由七�
 &getClubId & 无 & 无 & Long & 得到对应社团的id\\
 \hline
 \end{tabular}
+\end{table}
 
-\subsubsection{仓库类和服务类(repository \& Service)}
+\paragraph{仓库类和服务类(repository \& Service)}
 仓库类和服务类是本项目中不可或缺的一部分，它们管理着实例，为上层的controller提供数据支持，其类图如下:
 \newline
+\begin{figure}[H]
+\centering
 \includegraphics[width = 1.1\textwidth]{repository-service.png}
+\end{figure}
 
-\paragraph{StudentRepository \& StudentService}
-StudentRepository和StudentService在本系统中担任管理学生业务的重任，对实体类Student进行一层封装，使其增删改查变的非常容易，以下为其具体细节：
+\subparagraph{StudentRepository \& StudentService}
+StudentRepository和StudentService在本系统中担任管理学生业务的重任，对实体类Student进行一层封装，使其增删改查变的非常容易，以下为其具体细节，因为StudentService为StudentRepository的实现，所以具体介绍StudentService：
 \newline
+\begin{figure}[H]
+\centering
 \includegraphics[width = 0.4\textwidth]{student-rs.png}
-\newline
-\paragraph{ClubRepository \& ClubService}
-\paragraph{ActivityRepository \& ActivityService}
-\paragraph{ApplyRepository \& ApplyService}
-\paragraph{CommentRepository \& CommentService}
-\paragraph{FileRepository \& FileService}
-\paragraph{EncryptionRepository \& EncryptionRepository}
+\end{figure}
+\begin{center}
+\emph{save(Student student):void}\\
+修改数据库中学生信息\\ 
+\emph{findById(String Id):List<Student>}\\
+根据学生id在数据库中查找学生\\
+\emph{addStudent(String Id, String Name, String Grade, String Major, String Contact, String Password):void}\\
+根据学生完整信息生成学生存入数据库\\
+\emph{getStudentActivity(String Id):List<Activity>}\\
+根据学生学号查到某学生并获得他所有的活动\\
+\emph{login(String Id, String Password):Integer}\\
+对某学生执行登录操作
+\end{center}
 
-\subsection{行为建模}
+\subparagraph{ClubRepository \& ClubService}
+ClubRepository和ClubService在本系统中担任管理社团业务的重任，对实体类Club进行一层封装，使其增删改查变得非常容易，以下为具体细节，因为ClubService为ClubRepository的实现，所以具体介绍ClubService：
+\newline
+\begin{figure}[H]
+\centering
+\includegraphics[width = 0.4\textwidth]{club-rs.png}
+\end{figure}
+\begin{center}
+\emph{save(Club club):void}\\
+修改数据库中社团的信息\\
+\emph{findById(Long Id):List<Club>}\\
+根据社团的id查找到社团\\
+\emph{findAll():List<Club>}\\
+将所有的社团信息返回\\
+\emph{studentQuitClub(Long id, String id):boolean}\\
+将一个学生退出社团\\
+\emph{studentApplyClub(Long id, String id):boolean}\\
+学生申请加入社团\\
+\emph{addCommentToClub(Comment comment, Long id):void}\\
+对俱乐部进行评论\\
+\end{center}
+
+\subparagraph{ActivityRepository \& ActivityService}
+ActivityRepository和ActivityService在本系统中担任管理活动业务的重任，对实体类Activity进行一层封装，使其增删改查变得非常容易，以下为具体细节，因为ActivityService为ActivityRepository的实现，所以具体介绍ActivityService：
+\newline
+\begin{figure}[H]
+\centering
+\includegraphics[width = 0.4\textwidth]{activity-rs.png}
+\end{figure}
+\begin{center}
+\emph{save(Activity activity):void}\\
+修改数据库中活动的信息\\
+\emph{findById(Long Id):List<Activity>}\\
+根据活动的id查找到活动\\
+\emph{findAll():List<Activity>}\\
+将所有的活动信息返回\\
+\emph{addStudentToActivity(String id, Long id):void}\\
+将一个学生加入一个活动中\\
+\emph{deleteStudentFromActivity(String id, Long id):void}\\
+将一个学生从一个活动中删除\\
+\emph{addCommentToActivity(Comment comment, Long id):void}\\
+对活动进行评论
+\end{center}
+
+\subparagraph{ApplyRepository \& ApplyService}
+ApplyRepository和ApplyService在本系统中担任管理请求业务的重任，对实体类Apply进行一层封装，使其增删改查变得非常容易，以下为具体细节，因为ApplyService为ApplyRepository的实现，所以具体介绍ApplyService：
+\newline
+\begin{figure}[H]
+\centering
+\includegraphics[width = 0.4\textwidth]{apply-rs.png}
+\end{figure}
+\begin{center}
+\emph{save(Apply apply):void}\\
+修改数据库中请求的信息\\
+\emph{findById(Long Id):List<Apply>}\\
+根据请求的Id查找到请求\\
+\emph{findAll():List<Apply>}\\
+返回全部请求
+\end{center}
+
+\subparagraph{CommentRepository \& CommentService}
+CommentRepository和CommentService在本系统中担任管理评论业务的重任，对实体类Comment进行一层封装，使其增删改查变得非常容易，以下为具体细节，因为CommentService为CommentRepository的实现，所以具体介绍CommentService：
+\newline
+\begin{figure}[H]
+\centering
+\includegraphics[width = 0.4\textwidth]{comment-rs.png}
+\end{figure}
+\begin{center}
+\emph{save(Comment comment):void}\\
+修改数据库中评论的信息\\
+\emph{findById(Long Id):List<Comment>}\\
+根据请求的Id查找到评论\\
+\emph{findAllCommentOfClub(Long Id):List<Comment>}\\
+返回某个社团的所有评论\\
+\emph{findAllCommentOfActivity(Long Id):List<Comment>}\\
+返回某个活动的所有评论
+\end{center}
+
+\subparagraph{FileRepository \& FileService}
+ClubFileRepository和ClubFileService在本系统中担任管理社团资源文件业务的重任，对实体类ClubFile进行一层封装，使其增删改查变得非常容易，以下为具体细节，因为ClubFileService为ClubFileRepository的实现，所以具体介绍ClubFileService：
+\newline
+\begin{figure}[H]
+\centering
+\includegraphics[width = 0.4\textwidth]{clubfile-rs.png}
+\end{figure}
+\begin{center}
+\emph{save(ClubFile clubFile):void}\\
+修改数据库中俱乐部资源文件的信息
+\end{center}
+
+\subparagraph{EncryptionService}
+EncryptionService为学生的登录提供MD5加密服务，在每次登录的时候这个服务类都会把明文密码转化为用MD5加密的密文，以下为具体细节：
+\newline
+\begin{figure}[H]
+\centering
+\includegraphics[width = 0.4\textwidth]{Encryption-rs.png}
+\end{figure}
+\begin{center}
+\emph{encipherPassword(String Password):String}\\
+将给定的明文密码转化为MD5密文\\
+\emph{checkByPython(String Id, String Password):boolean}\\
+使用python脚本访问4m3本研一体化网站验证账号\\
+\emph{comparePW(String Id, String Password):boolean}\\
+比对用户的账号和密码是不是和数据库中的吻合\\
+\emph{encipher(String Password):String}\\
+对密文进行撒盐\\
+\emph{checkIdentity(String Id, String Password):boolean}\\
+验明身份并写session
+\end{center}
+
+\subsubsection{行为建模}
 张
 
 \section{UI 需求}
