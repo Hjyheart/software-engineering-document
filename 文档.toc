@@ -1,0 +1,157 @@
+\contentsline {section}{\numberline {1}问题定义}{5}{section.1}
+\contentsline {subsection}{\numberline {1.1}引言}{5}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}编写目的}{5}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2}参考资料}{5}{subsubsection.1.1.2}
+\contentsline {subsubsection}{\numberline {1.1.3}项目背景}{5}{subsubsection.1.1.3}
+\contentsline {paragraph}{同济大学社团发展现状}{5}{section*.2}
+\contentsline {paragraph}{线上平台的必要性}{6}{section*.3}
+\contentsline {subsection}{\numberline {1.2}用户的特点}{6}{subsection.1.2}
+\contentsline {subparagraph}{概述}{6}{section*.4}
+\contentsline {subparagraph}{具体可执行操作}{6}{section*.5}
+\contentsline {paragraph}{社团负责人}{6}{section*.6}
+\contentsline {subparagraph}{概述}{6}{section*.7}
+\contentsline {subparagraph}{具体可执行操作}{6}{section*.8}
+\contentsline {paragraph}{普通学生}{7}{section*.9}
+\contentsline {subparagraph}{概述}{7}{section*.10}
+\contentsline {subparagraph}{具体可执行操作}{7}{section*.11}
+\contentsline {section}{\numberline {2}可行性研究报告}{8}{section.2}
+\contentsline {subsection}{\numberline {2.1}技术可行性}{8}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}经济可行性}{8}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}社会可行性}{8}{subsection.2.3}
+\contentsline {section}{\numberline {3}需求分析报告}{8}{section.3}
+\contentsline {subsection}{\numberline {3.1}引言}{8}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}编写目的}{8}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}术语}{8}{subsubsection.3.1.2}
+\contentsline {paragraph}{AngularJs}{8}{section*.12}
+\contentsline {paragraph}{Spring}{9}{section*.13}
+\contentsline {paragraph}{Hibernate}{9}{section*.14}
+\contentsline {paragraph}{Tensorflow}{9}{section*.15}
+\contentsline {subsection}{\numberline {3.2}功能性需求}{9}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}功能需求}{9}{subsubsection.3.2.1}
+\contentsline {paragraph}{用例规约}{9}{section*.16}
+\contentsline {paragraph}{数据流图}{19}{section*.28}
+\contentsline {paragraph}{活动图}{31}{section*.32}
+\contentsline {subsubsection}{\numberline {3.2.2}数据需求}{34}{subsubsection.3.2.2}
+\contentsline {paragraph}{ER关系图}{36}{section*.36}
+\contentsline {subparagraph}{student \& club}{37}{section*.37}
+\contentsline {subparagraph}{club \& activity \& clubFile \& comment}{38}{section*.38}
+\contentsline {subparagraph}{comment \& activity}{39}{section*.39}
+\contentsline {subparagraph}{apply \& club \& teacher}{40}{section*.40}
+\contentsline {paragraph}{实体(Entity)}{41}{section*.41}
+\contentsline {subparagraph}{Student}{43}{section*.42}
+\contentsline {subparagraph}{Teacher}{44}{section*.43}
+\contentsline {subparagraph}{Activity}{45}{section*.44}
+\contentsline {subparagraph}{Apply}{48}{section*.45}
+\contentsline {subparagraph}{Club}{49}{section*.46}
+\contentsline {subparagraph}{Comment}{52}{section*.47}
+\contentsline {subparagraph}{ClubFile}{53}{section*.48}
+\contentsline {paragraph}{仓库类和服务类(repository \& Service)}{54}{section*.49}
+\contentsline {subparagraph}{StudentRepository \& StudentService}{55}{section*.50}
+\contentsline {subparagraph}{ClubRepository \& ClubService}{56}{section*.51}
+\contentsline {subparagraph}{ActivityRepository \& ActivityService}{57}{section*.52}
+\contentsline {subparagraph}{ApplyRepository \& ApplyService}{58}{section*.53}
+\contentsline {subparagraph}{CommentRepository \& CommentService}{59}{section*.54}
+\contentsline {subparagraph}{FileRepository \& FileService}{60}{section*.55}
+\contentsline {subparagraph}{EncryptionService}{61}{section*.56}
+\contentsline {subsubsection}{\numberline {3.2.3}行为需求}{62}{subsubsection.3.2.3}
+\contentsline {paragraph}{登录}{62}{section*.57}
+\contentsline {paragraph}{创建社团}{63}{section*.60}
+\contentsline {paragraph}{下载资源}{64}{section*.63}
+\contentsline {paragraph}{上传资源}{65}{section*.66}
+\contentsline {paragraph}{授权社团}{67}{section*.69}
+\contentsline {paragraph}{社团负责人发布社团信息}{68}{section*.72}
+\contentsline {paragraph}{申请加入社团}{69}{section*.75}
+\contentsline {paragraph}{申请加入活动}{71}{section*.78}
+\contentsline {paragraph}{用户收到推送消息}{72}{section*.81}
+\contentsline {paragraph}{管理老师审核}{73}{section*.83}
+\contentsline {paragraph}{短信服务}{75}{section*.86}
+\contentsline {subsection}{\numberline {3.3}非功能性需求}{77}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}性能需求}{77}{subsubsection.3.3.1}
+\contentsline {paragraph}{时间特性要求}{77}{section*.89}
+\contentsline {paragraph}{上传文件要求}{77}{section*.90}
+\contentsline {paragraph}{流量要求}{77}{section*.91}
+\contentsline {subsubsection}{\numberline {3.3.2}数据管理能力要求}{77}{subsubsection.3.3.2}
+\contentsline {paragraph}{数据库的建立}{77}{section*.92}
+\contentsline {paragraph}{数据库的查询/插入性能}{78}{section*.93}
+\contentsline {paragraph}{数据库的备份}{78}{section*.94}
+\contentsline {paragraph}{数据库的安全}{78}{section*.95}
+\contentsline {paragraph}{数据库日志系统}{78}{section*.96}
+\contentsline {subsubsection}{\numberline {3.3.3}安全及保密性要求}{79}{subsubsection.3.3.3}
+\contentsline {paragraph}{数据安全}{79}{section*.97}
+\contentsline {paragraph}{系统安全}{79}{section*.98}
+\contentsline {paragraph}{数据库账户安全}{79}{section*.99}
+\contentsline {paragraph}{设施安全}{79}{section*.100}
+\contentsline {section}{\numberline {4}概要设计说明}{79}{section.4}
+\contentsline {subsection}{\numberline {4.1}引言}{79}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}编写目的}{79}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}参考资料}{79}{subsubsection.4.1.2}
+\contentsline {subsection}{\numberline {4.2}总体设计}{79}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}需求规定}{79}{subsubsection.4.2.1}
+\contentsline {paragraph}{系统功能需求}{79}{section*.101}
+\contentsline {paragraph}{系统技术需求}{80}{section*.104}
+\contentsline {subsubsection}{\numberline {4.2.2}系统总体逻辑结构}{81}{subsubsection.4.2.2}
+\contentsline {paragraph}{应用系统总体逻辑模型}{81}{section*.109}
+\contentsline {paragraph}{子系统划分}{82}{section*.110}
+\contentsline {paragraph}{数据库划分}{82}{section*.111}
+\contentsline {paragraph}{总体处理流程}{82}{section*.112}
+\contentsline {subsection}{\numberline {4.3}系统出错处理设计}{83}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}接口设计}{84}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}接口调用方式}{84}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}接口数据}{84}{subsubsection.4.4.2}
+\contentsline {section}{\numberline {5}详细设计}{84}{section.5}
+\contentsline {subsection}{\numberline {5.1}引言}{84}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}编写目的}{84}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}参考资料}{85}{subsubsection.5.1.2}
+\contentsline {subsection}{\numberline {5.2}web端详细设计}{85}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}首页}{86}{subsubsection.5.2.1}
+\contentsline {paragraph}{页面简介}{86}{section*.113}
+\contentsline {paragraph}{组成元素及说明}{86}{section*.114}
+\contentsline {subsubsection}{\numberline {5.2.2}登录}{87}{subsubsection.5.2.2}
+\contentsline {paragraph}{页面简介}{87}{section*.119}
+\contentsline {paragraph}{组成元素及说明}{87}{section*.120}
+\contentsline {subsubsection}{\numberline {5.2.3}活动}{88}{subsubsection.5.2.3}
+\contentsline {paragraph}{页面简介}{88}{section*.125}
+\contentsline {paragraph}{组成元素及说明}{88}{section*.126}
+\contentsline {subsubsection}{\numberline {5.2.4}活动细节}{89}{subsubsection.5.2.4}
+\contentsline {paragraph}{页面简介}{89}{section*.132}
+\contentsline {paragraph}{组成元素及说明}{90}{section*.133}
+\contentsline {subsubsection}{\numberline {5.2.5}社团}{91}{subsubsection.5.2.5}
+\contentsline {paragraph}{页面简介}{91}{section*.141}
+\contentsline {paragraph}{组成元素及说明}{91}{section*.142}
+\contentsline {subsubsection}{\numberline {5.2.6}社团细节}{92}{subsubsection.5.2.6}
+\contentsline {paragraph}{页面简介}{92}{section*.148}
+\contentsline {paragraph}{组成元素及说明}{92}{section*.149}
+\contentsline {subsubsection}{\numberline {5.2.7}社团管理}{94}{subsubsection.5.2.7}
+\contentsline {paragraph}{页面简介}{94}{section*.158}
+\contentsline {paragraph}{组成元素及说明}{94}{section*.159}
+\contentsline {subsubsection}{\numberline {5.2.8}管理中心}{96}{subsubsection.5.2.8}
+\contentsline {paragraph}{页面简介}{96}{section*.169}
+\contentsline {paragraph}{组成元素及说明}{96}{section*.170}
+\contentsline {subsubsection}{\numberline {5.2.9}审核中心}{98}{subsubsection.5.2.9}
+\contentsline {paragraph}{页面简介}{98}{section*.178}
+\contentsline {paragraph}{组成元素及说明}{98}{section*.179}
+\contentsline {subsection}{\numberline {5.3}“同心云”端详细设计}{99}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}首页}{100}{subsubsection.5.3.1}
+\contentsline {paragraph}{页面简介}{100}{section*.186}
+\contentsline {paragraph}{组成元素及说明}{100}{section*.187}
+\contentsline {subsubsection}{\numberline {5.3.2}活动}{101}{subsubsection.5.3.2}
+\contentsline {paragraph}{页面简介}{102}{section*.193}
+\contentsline {paragraph}{组成元素及说明}{102}{section*.194}
+\contentsline {subsubsection}{\numberline {5.3.3}活动细节}{103}{subsubsection.5.3.3}
+\contentsline {paragraph}{页面简介}{103}{section*.198}
+\contentsline {paragraph}{组成元素及说明}{103}{section*.199}
+\contentsline {subsubsection}{\numberline {5.3.4}社团}{104}{subsubsection.5.3.4}
+\contentsline {paragraph}{页面简介}{105}{section*.204}
+\contentsline {paragraph}{组成元素及说明}{105}{section*.205}
+\contentsline {section}{\numberline {6}软件测试}{105}{section.6}
+\contentsline {subsection}{\numberline {6.1}操作方法}{105}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}登录}{105}{subsubsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.2}登出}{105}{subsubsection.6.1.2}
+\contentsline {subsubsection}{\numberline {6.1.3}上传文件}{105}{subsubsection.6.1.3}
+\contentsline {subsubsection}{\numberline {6.1.4}下载文件}{105}{subsubsection.6.1.4}
+\contentsline {subsection}{\numberline {6.2}调和测试}{105}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}登录测试}{105}{subsubsection.6.2.1}
+\contentsline {paragraph}{登录失败}{105}{section*.209}
+\contentsline {subsubsection}{\numberline {6.2.2}登出测试}{107}{subsubsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.3}上传文件测试}{109}{subsubsection.6.2.3}
+\contentsline {subsubsection}{\numberline {6.2.4}下载文件测试}{110}{subsubsection.6.2.4}

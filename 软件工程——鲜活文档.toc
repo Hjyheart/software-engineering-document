@@ -1,111 +1,129 @@
-\contentsline {section}{\numberline {1}引言}{4}
-\contentsline {subsection}{\numberline {1.1}背景}{4}
-\contentsline {paragraph}{同济大学社团发展现状}{4}
-\contentsline {paragraph}{线上平台的必要性}{4}
-\contentsline {paragraph}{线上平台的可行性}{4}
-\contentsline {subsection}{\numberline {1.2}假设和约束}{5}
-\contentsline {paragraph}{基本假设}{5}
-\contentsline {paragraph}{基本约束}{5}
-\contentsline {subsection}{\numberline {1.3}用户的特点}{5}
-\contentsline {paragraph}{老师}{5}
-\contentsline {subparagraph}{概述}{5}
-\contentsline {subparagraph}{具体可执行操作}{6}
-\contentsline {paragraph}{社团负责人}{6}
-\contentsline {subparagraph}{概述}{6}
-\contentsline {subparagraph}{具体可执行操作}{6}
-\contentsline {paragraph}{普通学生}{6}
-\contentsline {subparagraph}{概述}{7}
-\contentsline {subparagraph}{具体可执行操作}{7}
-\contentsline {section}{\numberline {2}功能需求}{7}
-\contentsline {subsection}{\numberline {2.1}系统范围}{7}
-\contentsline {subsubsection}{\numberline {2.1.1}系统开发的意图}{7}
-\contentsline {subsubsection}{\numberline {2.1.2}应用目标}{7}
-\contentsline {paragraph}{“同心云”轻应用}{7}
-\contentsline {paragraph}{web端}{8}
-\contentsline {subsubsection}{\numberline {2.1.3}作用范围}{8}
-\contentsline {subsection}{\numberline {2.2}系统体系结构}{8}
-\contentsline {subsection}{\numberline {2.3}系统总体流程}{8}
-\contentsline {subsection}{\numberline {2.4}需求分析}{8}
-\contentsline {subsubsection}{\numberline {2.4.1}功能建模}{8}
-\contentsline {paragraph}{用例规约}{8}
-\contentsline {paragraph}{数据流图}{18}
-\contentsline {paragraph}{活动图}{30}
-\contentsline {subsubsection}{\numberline {2.4.2}数据建模}{33}
-\contentsline {paragraph}{ER关系图}{35}
-\contentsline {subparagraph}{student \& club}{36}
-\contentsline {subparagraph}{club \& activity \& clubFile \& comment}{37}
-\contentsline {subparagraph}{comment \& activity}{38}
-\contentsline {subparagraph}{apply \& club \& teacher}{39}
-\contentsline {paragraph}{实体(Entity)}{40}
-\contentsline {subparagraph}{Student}{42}
-\contentsline {subparagraph}{Teacher}{43}
-\contentsline {subparagraph}{Activity}{44}
-\contentsline {subparagraph}{Apply}{47}
-\contentsline {subparagraph}{Club}{48}
-\contentsline {subparagraph}{Comment}{51}
-\contentsline {subparagraph}{ClubFile}{52}
-\contentsline {paragraph}{仓库类和服务类(repository \& Service)}{53}
-\contentsline {subparagraph}{StudentRepository \& StudentService}{54}
-\contentsline {subparagraph}{ClubRepository \& ClubService}{55}
-\contentsline {subparagraph}{ActivityRepository \& ActivityService}{56}
-\contentsline {subparagraph}{ApplyRepository \& ApplyService}{57}
-\contentsline {subparagraph}{CommentRepository \& CommentService}{58}
-\contentsline {subparagraph}{FileRepository \& FileService}{59}
-\contentsline {subparagraph}{EncryptionService}{60}
-\contentsline {subsubsection}{\numberline {2.4.3}行为建模}{61}
-\contentsline {section}{\numberline {3}UI 需求}{61}
-\contentsline {subsection}{\numberline {3.1}web端}{61}
-\contentsline {subsubsection}{\numberline {3.1.1}首页}{63}
-\contentsline {paragraph}{页面简介}{63}
-\contentsline {paragraph}{组成元素及说明}{63}
-\contentsline {subsubsection}{\numberline {3.1.2}登录}{64}
-\contentsline {paragraph}{页面简介}{64}
-\contentsline {paragraph}{组成元素及说明}{64}
-\contentsline {subsubsection}{\numberline {3.1.3}活动}{65}
-\contentsline {paragraph}{页面简介}{65}
-\contentsline {paragraph}{组成元素及说明}{65}
-\contentsline {subsubsection}{\numberline {3.1.4}活动细节}{66}
-\contentsline {paragraph}{页面简介}{66}
-\contentsline {paragraph}{组成元素及说明}{67}
-\contentsline {subsubsection}{\numberline {3.1.5}社团}{68}
-\contentsline {paragraph}{页面简介}{68}
-\contentsline {paragraph}{组成元素及说明}{68}
-\contentsline {subsubsection}{\numberline {3.1.6}社团细节}{69}
-\contentsline {paragraph}{页面简介}{69}
-\contentsline {paragraph}{组成元素及说明}{69}
-\contentsline {subsubsection}{\numberline {3.1.7}社团管理}{71}
-\contentsline {paragraph}{页面简介}{71}
-\contentsline {paragraph}{组成元素及说明}{71}
-\contentsline {subsubsection}{\numberline {3.1.8}管理中心}{73}
-\contentsline {paragraph}{页面简介}{73}
-\contentsline {paragraph}{组成元素及说明}{73}
-\contentsline {subsubsection}{\numberline {3.1.9}审核中心}{75}
-\contentsline {paragraph}{页面简介}{75}
-\contentsline {paragraph}{组成元素及说明}{75}
-\contentsline {subsection}{\numberline {3.2}“同心云”端}{76}
-\contentsline {subsubsection}{\numberline {3.2.1}首页}{77}
-\contentsline {paragraph}{页面简介}{77}
-\contentsline {paragraph}{组成元素及说明}{77}
-\contentsline {subsubsection}{\numberline {3.2.2}活动}{78}
-\contentsline {paragraph}{页面简介}{79}
-\contentsline {paragraph}{组成元素及说明}{79}
-\contentsline {subsubsection}{\numberline {3.2.3}活动细节}{80}
-\contentsline {paragraph}{页面简介}{80}
-\contentsline {paragraph}{组成元素及说明}{80}
-\contentsline {subsubsection}{\numberline {3.2.4}社团}{81}
-\contentsline {paragraph}{页面简介}{82}
-\contentsline {paragraph}{组成元素及说明}{82}
-\contentsline {section}{\numberline {4}非功能需求}{82}
-\contentsline {subsection}{\numberline {4.1}性能需求}{82}
-\contentsline {subsubsection}{\numberline {4.1.1}精度}{82}
-\contentsline {subsubsection}{\numberline {4.1.2}时间特性要求}{82}
-\contentsline {subsubsection}{\numberline {4.1.3}输入输出要求}{82}
-\contentsline {subsection}{\numberline {4.2}数据管理能力要求}{82}
-\contentsline {subsection}{\numberline {4.3}安全及保密性要求}{82}
-\contentsline {subsection}{\numberline {4.4}灵活性要求}{82}
-\contentsline {subsection}{\numberline {4.5}其他专门要求}{82}
-\contentsline {section}{\numberline {5}运行环境规定}{83}
-\contentsline {subsection}{\numberline {5.1}设备}{83}
-\contentsline {subsection}{\numberline {5.2}支持软件}{83}
-\contentsline {section}{\numberline {6}需求跟踪}{83}
-\contentsline {section}{\numberline {7}附录}{83}
+\contentsline {section}{\numberline {1}引言}{4}{section.1}
+\contentsline {subsection}{\numberline {1.1}背景}{4}{subsection.1.1}
+\contentsline {paragraph}{同济大学社团发展现状}{4}{section*.2}
+\contentsline {paragraph}{线上平台的必要性}{4}{section*.3}
+\contentsline {paragraph}{线上平台的可行性}{4}{section*.4}
+\contentsline {subsection}{\numberline {1.2}假设和约束}{5}{subsection.1.2}
+\contentsline {paragraph}{基本假设}{5}{section*.5}
+\contentsline {paragraph}{基本约束}{5}{section*.6}
+\contentsline {subsection}{\numberline {1.3}用户的特点}{5}{subsection.1.3}
+\contentsline {paragraph}{老师}{5}{section*.7}
+\contentsline {subparagraph}{概述}{5}{section*.8}
+\contentsline {subparagraph}{具体可执行操作}{6}{section*.9}
+\contentsline {paragraph}{社团负责人}{6}{section*.10}
+\contentsline {subparagraph}{概述}{6}{section*.11}
+\contentsline {subparagraph}{具体可执行操作}{6}{section*.12}
+\contentsline {paragraph}{普通学生}{6}{section*.13}
+\contentsline {subparagraph}{概述}{7}{section*.14}
+\contentsline {subparagraph}{具体可执行操作}{7}{section*.15}
+\contentsline {section}{\numberline {2}功能需求}{7}{section.2}
+\contentsline {subsection}{\numberline {2.1}系统范围}{7}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}系统开发的意图}{7}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}应用目标}{7}{subsubsection.2.1.2}
+\contentsline {paragraph}{“同心云”轻应用}{7}{section*.16}
+\contentsline {paragraph}{web端}{8}{section*.17}
+\contentsline {subsubsection}{\numberline {2.1.3}作用范围}{8}{subsubsection.2.1.3}
+\contentsline {subsection}{\numberline {2.2}系统体系结构}{8}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}系统总体流程}{10}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}需求分析}{11}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}功能建模}{11}{subsubsection.2.4.1}
+\contentsline {paragraph}{用例规约}{11}{section*.18}
+\contentsline {paragraph}{数据流图}{21}{section*.30}
+\contentsline {paragraph}{活动图}{33}{section*.34}
+\contentsline {subsubsection}{\numberline {2.4.2}数据建模}{36}{subsubsection.2.4.2}
+\contentsline {paragraph}{ER关系图}{38}{section*.38}
+\contentsline {subparagraph}{student \& club}{39}{section*.39}
+\contentsline {subparagraph}{club \& activity \& clubFile \& comment}{40}{section*.40}
+\contentsline {subparagraph}{comment \& activity}{41}{section*.41}
+\contentsline {subparagraph}{apply \& club \& teacher}{42}{section*.42}
+\contentsline {paragraph}{实体(Entity)}{43}{section*.43}
+\contentsline {subparagraph}{Student}{45}{section*.44}
+\contentsline {subparagraph}{Teacher}{46}{section*.45}
+\contentsline {subparagraph}{Activity}{47}{section*.46}
+\contentsline {subparagraph}{Apply}{50}{section*.47}
+\contentsline {subparagraph}{Club}{51}{section*.48}
+\contentsline {subparagraph}{Comment}{54}{section*.49}
+\contentsline {subparagraph}{ClubFile}{55}{section*.50}
+\contentsline {paragraph}{仓库类和服务类(repository \& Service)}{56}{section*.51}
+\contentsline {subparagraph}{StudentRepository \& StudentService}{57}{section*.52}
+\contentsline {subparagraph}{ClubRepository \& ClubService}{58}{section*.53}
+\contentsline {subparagraph}{ActivityRepository \& ActivityService}{59}{section*.54}
+\contentsline {subparagraph}{ApplyRepository \& ApplyService}{60}{section*.55}
+\contentsline {subparagraph}{CommentRepository \& CommentService}{61}{section*.56}
+\contentsline {subparagraph}{FileRepository \& FileService}{62}{section*.57}
+\contentsline {subparagraph}{EncryptionService}{63}{section*.58}
+\contentsline {subsubsection}{\numberline {2.4.3}行为建模}{64}{subsubsection.2.4.3}
+\contentsline {paragraph}{登录}{64}{section*.59}
+\contentsline {paragraph}{创建社团}{65}{section*.62}
+\contentsline {paragraph}{下载资源}{66}{section*.65}
+\contentsline {paragraph}{上传资源}{67}{section*.68}
+\contentsline {paragraph}{授权社团}{69}{section*.71}
+\contentsline {paragraph}{社团负责人发布社团信息}{70}{section*.74}
+\contentsline {paragraph}{申请加入社团}{71}{section*.77}
+\contentsline {paragraph}{申请加入活动}{73}{section*.80}
+\contentsline {paragraph}{用户收到推送消息}{74}{section*.83}
+\contentsline {paragraph}{管理老师审核}{75}{section*.85}
+\contentsline {paragraph}{短信服务}{77}{section*.88}
+\contentsline {section}{\numberline {3}UI 需求}{79}{section.3}
+\contentsline {subsection}{\numberline {3.1}web端}{79}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}首页}{80}{subsubsection.3.1.1}
+\contentsline {paragraph}{页面简介}{80}{section*.91}
+\contentsline {paragraph}{组成元素及说明}{80}{section*.92}
+\contentsline {subsubsection}{\numberline {3.1.2}登录}{81}{subsubsection.3.1.2}
+\contentsline {paragraph}{页面简介}{81}{section*.97}
+\contentsline {paragraph}{组成元素及说明}{81}{section*.98}
+\contentsline {subsubsection}{\numberline {3.1.3}活动}{82}{subsubsection.3.1.3}
+\contentsline {paragraph}{页面简介}{82}{section*.103}
+\contentsline {paragraph}{组成元素及说明}{82}{section*.104}
+\contentsline {subsubsection}{\numberline {3.1.4}活动细节}{83}{subsubsection.3.1.4}
+\contentsline {paragraph}{页面简介}{83}{section*.110}
+\contentsline {paragraph}{组成元素及说明}{84}{section*.111}
+\contentsline {subsubsection}{\numberline {3.1.5}社团}{85}{subsubsection.3.1.5}
+\contentsline {paragraph}{页面简介}{85}{section*.119}
+\contentsline {paragraph}{组成元素及说明}{85}{section*.120}
+\contentsline {subsubsection}{\numberline {3.1.6}社团细节}{86}{subsubsection.3.1.6}
+\contentsline {paragraph}{页面简介}{86}{section*.126}
+\contentsline {paragraph}{组成元素及说明}{86}{section*.127}
+\contentsline {subsubsection}{\numberline {3.1.7}社团管理}{88}{subsubsection.3.1.7}
+\contentsline {paragraph}{页面简介}{88}{section*.136}
+\contentsline {paragraph}{组成元素及说明}{88}{section*.137}
+\contentsline {subsubsection}{\numberline {3.1.8}管理中心}{90}{subsubsection.3.1.8}
+\contentsline {paragraph}{页面简介}{90}{section*.147}
+\contentsline {paragraph}{组成元素及说明}{90}{section*.148}
+\contentsline {subsubsection}{\numberline {3.1.9}审核中心}{92}{subsubsection.3.1.9}
+\contentsline {paragraph}{页面简介}{92}{section*.156}
+\contentsline {paragraph}{组成元素及说明}{92}{section*.157}
+\contentsline {subsection}{\numberline {3.2}“同心云”端}{93}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}首页}{94}{subsubsection.3.2.1}
+\contentsline {paragraph}{页面简介}{94}{section*.164}
+\contentsline {paragraph}{组成元素及说明}{94}{section*.165}
+\contentsline {subsubsection}{\numberline {3.2.2}活动}{95}{subsubsection.3.2.2}
+\contentsline {paragraph}{页面简介}{96}{section*.171}
+\contentsline {paragraph}{组成元素及说明}{96}{section*.172}
+\contentsline {subsubsection}{\numberline {3.2.3}活动细节}{97}{subsubsection.3.2.3}
+\contentsline {paragraph}{页面简介}{97}{section*.176}
+\contentsline {paragraph}{组成元素及说明}{97}{section*.177}
+\contentsline {subsubsection}{\numberline {3.2.4}社团}{98}{subsubsection.3.2.4}
+\contentsline {paragraph}{页面简介}{99}{section*.182}
+\contentsline {paragraph}{组成元素及说明}{99}{section*.183}
+\contentsline {section}{\numberline {4}非功能需求}{99}{section.4}
+\contentsline {subsection}{\numberline {4.1}性能需求}{99}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}时间特性要求}{99}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}上传文件要求}{99}{subsubsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.3}流量要求}{100}{subsubsection.4.1.3}
+\contentsline {subsection}{\numberline {4.2}数据管理能力要求}{100}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}安全及保密性要求}{101}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}灵活性要求}{102}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}其他专门要求}{102}{subsection.4.5}
+\contentsline {section}{\numberline {5}运行环境规定}{102}{section.5}
+\contentsline {subsection}{\numberline {5.1}设备}{102}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}支持软件}{102}{subsection.5.2}
+\contentsline {paragraph}{环境}{102}{section*.196}
+\contentsline {paragraph}{开发环境}{102}{section*.197}
+\contentsline {paragraph}{项目版本管理}{102}{section*.198}
+\contentsline {paragraph}{项目框架}{102}{section*.199}
+\contentsline {paragraph}{数据库}{102}{section*.200}
+\contentsline {paragraph}{项目构建工具}{102}{section*.201}
+\contentsline {paragraph}{项目依赖（基于Maven）}{103}{section*.202}
+\contentsline {section}{\numberline {6}需求跟踪}{103}{section.6}
+\contentsline {section}{\numberline {7}附录}{103}{section.7}
