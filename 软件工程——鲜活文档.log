@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.9.19)  29 DEC 2016 10:52
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.9.19)  29 DEC 2016 15:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1546,11 +1546,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Font shape `EU1/HoeflerText(0)/m/sl' in size <10.53937> not
  available
 (Font)              Font shape `EU1/HoeflerText(0)/m/it' tried instead on input
- line 96.
+ line 99.
 LaTeX Font Info:    Font shape `EU1/STSong(0)/m/sl' in size <10.53937> not avai
 lable
 (Font)              Font shape `EU1/STSong(0)/m/it' tried instead on input line
- 96.
+ 99.
  [2])
 \tf@toc=\write3
 \openout3 = `软件工程——鲜活文档.toc'.
@@ -1596,116 +1596,517 @@ Underfull \hbox (badness 10000) in paragraph at lines 164--180
  []
 
 [7]
-File: package.png Graphic file (type QTm)
- <use  "package.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 204--212
+File: uc-createclub.png Graphic file (type QTm)
+ <use  "uc-createclub.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 204--209
 
  []
 
-[8] [9]
-File: er.eps Graphic file (type eps)
- <er.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 253--258
+[8]
+File: uc-download.png Graphic file (type QTm)
+ <use  "uc-download.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 247--252
+
+ []
+
+[9]
+File: uc-upload.png Graphic file (type QTm)
+ <use  "uc-upload.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 288--293
 
  []
 
 [10]
-File: student-club-er.eps Graphic file (type eps)
- <student-club-er.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 261--266
+File: uc-authorize.png Graphic file (type QTm)
+ <use  "uc-authorize.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 328--333
 
  []
 
 [11]
-File: club-*-er.eps Graphic file (type eps)
- <club-*-er.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 269--274
+File: uc-sendmessage.png Graphic file (type QTm)
+ <use  "uc-sendmessage.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 368--373
 
  []
 
 [12]
-File: activity-comment-er.eps Graphic file (type eps)
- <activity-comment-er.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 277--282
+File: uc-sendactivity-message.png Graphic file (type QTm)
+ <use  "uc-sendactivity-message.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 408--413
 
  []
 
 [13]
-File: apply-*-er.eps Graphic file (type eps)
- <apply-*-er.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 285--290
+File: uc-applyforclub.png Graphic file (type QTm)
+ <use  "uc-applyforclub.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 449--454
 
  []
 
 [14]
-File: xianhuo-class.png Graphic file (type QTm)
- <use  "xianhuo-class.png" > [15]
-Overfull \vbox (13.14662pt too high) has occurred while \output is active []
-
-
-[16]
-File: student-class.png Graphic file (type QTm)
- <use  "student-class.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 300--305
+File: uc-registeractivity.png Graphic file (type QTm)
+ <use  "uc-registeractivity.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 489--494
 
  []
 
+[15]
+File: uc-getmessage.png Graphic file (type QTm)
+ <use  "uc-getmessage.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 527--532
 
-Overfull \hbox (16.39587pt too wide) in paragraph at lines 309--347
- [][] 
+ []
+
+File: uc-admin.png Graphic file (type QTm)
+<use  "uc-admin.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 564--569
+
+ []
+
+[16]
+File: uc-alidayu.png Graphic file (type QTm)
+ <use  "uc-alidayu.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 603--608
+
  []
 
 [17]
-File: teacher-class.png Graphic file (type QTm)
- <use  "teacher-class.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 350--355
+File: upload-df.png Graphic file (type QTm)
+ <use  "upload-df.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 643--647
+
+ []
+
+File: upload0-df.png Graphic file (type QTm)
+<use  "upload0-df.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 651--655
 
  []
 
 [18]
-File: activity-class.png Graphic file (type QTm)
- <use  "activity-class.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 376--381
+Underfull \hbox (badness 10000) in paragraph at lines 656--659
+
+ []
+
+File: upload1-df.png Graphic file (type QTm)
+<use  "upload1-df.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 660--664
 
  []
 
 
-Overfull \hbox (56.28738pt too wide) in paragraph at lines 385--429
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 665--669
+
  []
 
-[19] [20]
-Overfull \vbox (43.09271pt too high) has occurred while \output is active []
+File: upload2-df.png Graphic file (type QTm)
+<use  "upload2-df.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 670--674
 
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 675--678
+
+ []
+
+File: download-df.png Graphic file (type QTm)
+<use  "download-df.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 680--684
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 686--687
+
+ []
+
+File: download0-df.png Graphic file (type QTm)
+<use  "download0-df.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 688--692
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 693--698
+
+ []
+
+File: download1-df.png Graphic file (type QTm)
+<use  "download1-df.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 699--703
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 704--708
+
+ []
+
+File: download2-df.png Graphic file (type QTm)
+<use  "download2-df.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 709--713
+
+ []
 
 [21]
-File: apply-class.png Graphic file (type QTm)
- <use  "apply-class.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 432--437
+Underfull \hbox (badness 10000) in paragraph at lines 714--718
+
+ []
+
+File: recommend-df.png Graphic file (type QTm)
+<use  "recommend-df.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 720--724
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 726--727
 
  []
 
 [22]
-File: club-class.png Graphic file (type QTm)
- <use  "club-class.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 479--484
+File: recommend0-df.png Graphic file (type QTm)
+ <use  "recommend0-df.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 728--732
 
- []
-
-
-Overfull \hbox (68.13364pt too wide) in paragraph at lines 488--538
- [][] 
  []
 
 [23]
+Underfull \hbox (badness 10000) in paragraph at lines 733--734
+
+ []
+
+[24]
+File: recommend1-df.png Graphic file (type QTm)
+ <use  "recommend1-df.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 735--739
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 740--742
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 746--747
+
+ []
+
+File: data-cleaning-df.png Graphic file (type QTm)
+<use  "data-cleaning-df.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 752--756
+
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 757--758
+
+ []
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 765--766
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 781--783
+
+ []
+
+File: recommend2-df.png Graphic file (type QTm)
+<use  "recommend2-df.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 784--788
+
+ []
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 789--794
+
+ []
+
+File: recommend3-df.png Graphic file (type QTm)
+<use  "recommend3-df.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 795--799
+
+ []
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 800--806
+
+ []
+
+File: recommend4-df.png Graphic file (type QTm)
+<use  "recommend4-df.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 807--811
+
+ []
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 812--818
+
+ []
+
+File: upload-ac.png Graphic file (type QTm)
+<use  "upload-ac.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 822--826
+
+ []
+
+[30]
+File: apply-ac.png Graphic file (type QTm)
+ <use  "apply-ac.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 829--833
+
+ []
+
+[31]
+File: recommend-ac.png Graphic file (type QTm)
+ <use  "recommend-ac.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 836--840
+
+ []
+
+[32]
+File: package.png Graphic file (type QTm)
+ <use  "package.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 844--852
+
+ []
+
+[33] [34]
+File: er.eps Graphic file (type eps)
+ <er.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 893--898
+
+ []
+
+[35]
+File: student-club-er.eps Graphic file (type eps)
+ <student-club-er.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 901--906
+
+ []
+
+[36]
+File: club-*-er.eps Graphic file (type eps)
+ <club-*-er.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 909--914
+
+ []
+
+[37]
+File: activity-comment-er.eps Graphic file (type eps)
+ <activity-comment-er.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 917--922
+
+ []
+
+[38]
+File: apply-*-er.eps Graphic file (type eps)
+ <apply-*-er.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 925--930
+
+ []
+
+[39]
+File: xianhuo-class.png Graphic file (type QTm)
+ <use  "xianhuo-class.png" > [40]
+Overfull \vbox (13.14662pt too high) has occurred while \output is active []
+
+
+[41]
+File: student-class.png Graphic file (type QTm)
+ <use  "student-class.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 940--945
+
+ []
+
+
+Overfull \hbox (16.39587pt too wide) in paragraph at lines 949--987
+ [][] 
+ []
+
+[42]
+File: teacher-class.png Graphic file (type QTm)
+ <use  "teacher-class.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 990--995
+
+ []
+
+[43]
+File: activity-class.png Graphic file (type QTm)
+ <use  "activity-class.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 1016--1021
+
+ []
+
+
+Overfull \hbox (56.28738pt too wide) in paragraph at lines 1025--1069
+ [][] 
+ []
+
+[44] [45]
+Overfull \vbox (43.09271pt too high) has occurred while \output is active []
+
+
+[46]
+File: apply-class.png Graphic file (type QTm)
+ <use  "apply-class.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 1072--1077
+
+ []
+
+[47]
+File: club-class.png Graphic file (type QTm)
+ <use  "club-class.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1124
+
+ []
+
+
+Overfull \hbox (68.13364pt too wide) in paragraph at lines 1128--1178
+ [][] 
+ []
+
+[48]
 Overfull \vbox (33.06107pt too high) has occurred while \output is active []
 
 
-[24]
-Overfull \vbox (141.1722pt too high) has occurred while \output is active []
+[49]
+Overfull \vbox (140.67685pt too high) has occurred while \output is active []
 
 
-[25]
+[50]
 File: comment-class.png Graphic file (type QTm)
  <use  "comment-class.png" >
-Underfull \hbox (b
+Underfull \hbox (badness 10000) in paragraph at lines 1181--1186
+
+ []
+
+[51]
+File: clubfile-class.png Graphic file (type QTm)
+ <use  "clubfile-class.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 1226--1231
+
+ []
+
+[52]
+File: repository-service.png Graphic file (type QTm)
+ <use  "repository-service.png" >
+Overfull \hbox (43.00308pt too wide) in paragraph at lines 1265--1266
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1261--1266
+
+ []
+
+[53]
+File: student-rs.png Graphic file (type QTm)
+ <use  "student-rs.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 1269--1274
+
+ []
+
+[54]
+File: club-rs.png Graphic file (type QTm)
+ <use  "club-rs.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 1289--1294
+
+ []
+
+[55]
+File: activity-rs.png Graphic file (type QTm)
+ <use  "activity-rs.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 1311--1316
+
+ []
+
+[56]
+File: apply-rs.png Graphic file (type QTm)
+ <use  "apply-rs.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 1333--1338
+
+ []
+
+[57]
+File: comment-rs.png Graphic file (type QTm)
+ <use  "comment-rs.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 1349--1354
+
+ []
+
+[58]
+File: clubfile-rs.png Graphic file (type QTm)
+ <use  "clubfile-rs.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 1367--1372
+
+ []
+
+[59]
+File: Encryption-rs.png Graphic file (type QTm)
+ <use  "Encryption-rs.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 1379--1384
+
+ []
+
+[60]
+File: web.eps Graphic file (type eps)
+ <web.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 1404--1409
+
+ []
+
+[61]
+File: web-index.png Graphic file (type QTm)
+ <use  "web-index.png" > [62] [63]
+File: web-login.png Graphic file (type QTm)
+ <use  "web-login.png" > [64]
+File: web-activity-home.png Graphic file (type QTm)
+
+<use  "web-activity-home.png" > [65]
+File: web-activity-detail.png Graphic file (type QTm)
+ <use  "web-activity-detail.png" > [66]
+File: web-club-home.png Graphic file (type QTm)
+
+<use  "web-club-home.png" > [67] [68]
+File: web-club-detail.png Graphic file (type QTm)
+ <use  "web-club-detail.png" > [69]
+File: web-club-admin.png Graphic file (type QTm)
+
+<use  "web-club-admin.png" > [70] [71]
+File: web-center.png Graphic file (type QTm)
+ <use  "web-center.png" > [72] [73]
+File: web-admin.png Graphic file (type QTm)
+
+<use  "web-admin.png" > [74] [75]
+File: tongxinyun.eps Graphic file (type eps)
+ <tongxinyun.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 1612--1617
+
+ []
+
+File: tong-index.png Graphic file (type QTm)
+<use  "tong-index.png" > [76] [77]
+File: tong-activity-home.png Graphic file (type QTm)
+ <use  "tong-activity-home.png" > [78]
+File: tong-activity-detail.png Graphic file (type QTm)
+
+<use  "tong-activity-detail.png" > [79] [80]
+File: tong-club-home.png Graphic file (type QTm)
+ <use  "tong-club-home.png" >
+[81] [82] [83] (./软件工程——鲜活文档.aux) ) 
+Here is how much of TeX's memory you used:
+ 21400 strings out of 493591
+ 449029 string characters out of 6143546
+ 439476 words of memory out of 5000000
+ 24493 multiletter control sequences out of 15000+600000
+ 11550 words of font info for 85 fonts, out of 8000000 for 9000
+ 1347 hyphenation exceptions out of 8191
+ 65i,9n,105p,10516b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on 软件工程——鲜活文档.pdf (83 pages).
